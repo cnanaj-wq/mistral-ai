@@ -42,6 +42,11 @@ d.text(
     font=police("segoeui.ttf", 28),
     fill=BLANC,
 )
-d.text((70, 550), "Cédric NANA  ·  Consultant BI & Data", font=police("segoeui.ttf", 26), fill=GRIS)
+d.text(
+    (70, 550),
+    "Cédric NANA — Expert BI & Data | Analytics & AI Automation",
+    font=police("segoeui.ttf", 26),
+    fill=GRIS,
+)
 fond.save(ICI / "entete.png", optimize=True)
 print("En-tête écrit :", ICI / "entete.png")

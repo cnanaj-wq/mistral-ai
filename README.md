@@ -265,4 +265,4 @@ Pour chaque cas : le nom de la table Spotfire, la limitation de données, l'expr
 
 ## Auteur
 
-**Cédric NANA** · Consultant BI & Data · [GitHub](https://github.com/cnanaj-wq)
+**Cédric NANA** — Expert BI & Data | Analytics & AI Automation · [GitHub](https://github.com/cnanaj-wq)
