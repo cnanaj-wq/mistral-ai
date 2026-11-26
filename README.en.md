@@ -176,6 +176,61 @@ Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}>} [CA Réel])
 
 The number is right, the wording is heavier than the manual migration (`[Mois clos]={1}`), and it will need a manual edit when one more month is closed. Two cases needed two corrections: the first attempt added spaces or wrote `{1..10}`, which Qlik Sense also rejects.
 
+### Attempt 1, then attempt 2: what Mistral wrote and what Qlik replied
+
+Each row is an answer from Mistral, exactly as returned, followed by what Qlik Sense made of it. The message sent back to Mistral after a failure is always the same: "I ran your expression in Qlik Sense: Qlik Sense replies: Qlik returns no value (invalid expression). Fix the expression and answer in the same JSON format." (sent in French, translated here)
+
+**EBITDA**
+
+Spotfire : `Sum([Réel])`, limited by `[Exercice] = 2026 and [Mois] <= 10 and [Ordre] <= 7`
+
+| Attempt | Mistral's answer | Qlik Sense feedback |
+|---|---|---|
+| 1 | `Sum({<[Exercice]={2026}, [Mois]={<=10}, [Ordre rubrique]={<=7}>} [CR Réel])` | no value returned |
+| 2 | `Sum({<[Exercice]={2026}, [Mois]={1..10}, [Ordre rubrique]={1..7}>} [CR Réel])` | no value returned |
+| 3 | `Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}, [Ordre rubrique]={1,2,3,4,5,6,7}>} [CR Réel])` | compliant: 5311850.5900 |
+
+<details>
+<summary>See the other four cases</summary>
+
+**Year-to-date revenue**
+
+Spotfire : `Sum([CA Réel])`, limited by `[Exercice] = 2026 and [Mois] <= 10`
+
+| Attempt | Mistral's answer | Qlik Sense feedback |
+|---|---|---|
+| 1 | `Sum({<[Exercice]={2026}, [Mois]={<=10}>} [CA Réel])` | no value returned |
+| 2 | `Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}>} [CA Réel])` | compliant: 74215646.7100 |
+
+**Margin rate**
+
+Spotfire : `100 * Sum([Marge brute Réel]) / Sum([CA Réel])`, limited by `[Exercice] = 2026 and [Mois] <= 10`
+
+| Attempt | Mistral's answer | Qlik Sense feedback |
+|---|---|---|
+| 1 | `100 * Sum({<[Exercice]={2026}, [Mois]={<=10}>} [Marge brute Réel]) / Sum({<[Exercice]={2026}, [Mois]={<=10}>} [CA Réel])` | no value returned |
+| 2 | `100 * Sum({<[Exercice] = {2026}, [Mois] = {<=10}>} [Marge brute Réel]) / Sum({<[Exercice] = {2026}, [Mois] = {<=10}>} [CA Réel])` | no value returned |
+| 3 | `100 * Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}>} [Marge brute Réel]) / Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}>} [CA Réel])` | compliant: 29.4514 |
+
+**Revenue gap to budget**
+
+Spotfire : `100 * (Sum([CA Réel]) / Sum([CA Budget]) - 1)`, limited by `[Exercice] = 2026 and [Mois] <= 10`
+
+| Attempt | Mistral's answer | Qlik Sense feedback |
+|---|---|---|
+| 1 | `100 * (Sum({<[Exercice]={2026}, [Mois]={<=10}>} [CA Réel]) / Sum({<[Exercice]={2026}, [Mois]={<=10}>} [CA Budget]) - 1)` | no value returned |
+| 2 | `100 * (Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}>} [CA Réel]) / Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}>} [CA Budget]) - 1)` | compliant: 1.0753 |
+
+**Margin effects**
+
+Spotfire : `Sum([Montant]) / 1000`, limited by `[Exercice] = 2026 and [Type] = "Effet"`
+
+| Attempt | Mistral's answer | Qlik Sense feedback |
+|---|---|---|
+| 1 | `Sum({<[Exercice]={2026}, [Type de poste]={'Effet'}>} [Écart de marge]) / 1000` | compliant: -1072.4964 |
+
+</details>
+
 What the second run shows: it is the "convert, run, correct" loop that moves the score from 1 to 5 out of 5, not the conversion alone. The successive attempts are in [`corrections.json`](corrections.json).
 
 ## Repository map

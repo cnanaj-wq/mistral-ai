@@ -174,6 +174,61 @@ Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}>} [CA Réel])
 
 Le nombre est juste, l'écriture est plus lourde que celle de la migration manuelle (`[Mois clos]={1}`), et elle devra être reprise à la main si un mois de plus est clôturé. Deux cas ont demandé deux corrections : la première tentative ajoutait des espaces ou écrivait `{1..10}`, que Qlik Sense refuse aussi.
 
+### Essai 1, puis essai 2 : ce que Mistral a écrit et ce que Qlik a répondu
+
+Chaque ligne est une réponse de Mistral, telle qu'elle est sortie, suivie de ce que Qlik Sense en a fait. Le message renvoyé à Mistral après un échec est toujours le même : « J'ai exécuté ton expression dans Qlik Sense : Qlik Sense répond : Qlik ne renvoie aucune valeur (expression invalide). Corrige l'expression et réponds dans le même format JSON. »
+
+**EBITDA**
+
+Spotfire : `Sum([Réel])`, limitée par `[Exercice] = 2026 and [Mois] <= 10 and [Ordre] <= 7`
+
+| Essai | Réponse de Mistral | Retour de Qlik Sense |
+|---|---|---|
+| 1 | `Sum({<[Exercice]={2026}, [Mois]={<=10}, [Ordre rubrique]={<=7}>} [CR Réel])` | aucune valeur renvoyée |
+| 2 | `Sum({<[Exercice]={2026}, [Mois]={1..10}, [Ordre rubrique]={1..7}>} [CR Réel])` | aucune valeur renvoyée |
+| 3 | `Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}, [Ordre rubrique]={1,2,3,4,5,6,7}>} [CR Réel])` | conforme : 5311850.5900 |
+
+<details>
+<summary>Voir les quatre autres cas</summary>
+
+**Chiffre d'affaires cumulé**
+
+Spotfire : `Sum([CA Réel])`, limitée par `[Exercice] = 2026 and [Mois] <= 10`
+
+| Essai | Réponse de Mistral | Retour de Qlik Sense |
+|---|---|---|
+| 1 | `Sum({<[Exercice]={2026}, [Mois]={<=10}>} [CA Réel])` | aucune valeur renvoyée |
+| 2 | `Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}>} [CA Réel])` | conforme : 74215646.7100 |
+
+**Taux de marge**
+
+Spotfire : `100 * Sum([Marge brute Réel]) / Sum([CA Réel])`, limitée par `[Exercice] = 2026 and [Mois] <= 10`
+
+| Essai | Réponse de Mistral | Retour de Qlik Sense |
+|---|---|---|
+| 1 | `100 * Sum({<[Exercice]={2026}, [Mois]={<=10}>} [Marge brute Réel]) / Sum({<[Exercice]={2026}, [Mois]={<=10}>} [CA Réel])` | aucune valeur renvoyée |
+| 2 | `100 * Sum({<[Exercice] = {2026}, [Mois] = {<=10}>} [Marge brute Réel]) / Sum({<[Exercice] = {2026}, [Mois] = {<=10}>} [CA Réel])` | aucune valeur renvoyée |
+| 3 | `100 * Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}>} [Marge brute Réel]) / Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}>} [CA Réel])` | conforme : 29.4514 |
+
+**Écart de chiffre d'affaires au budget**
+
+Spotfire : `100 * (Sum([CA Réel]) / Sum([CA Budget]) - 1)`, limitée par `[Exercice] = 2026 and [Mois] <= 10`
+
+| Essai | Réponse de Mistral | Retour de Qlik Sense |
+|---|---|---|
+| 1 | `100 * (Sum({<[Exercice]={2026}, [Mois]={<=10}>} [CA Réel]) / Sum({<[Exercice]={2026}, [Mois]={<=10}>} [CA Budget]) - 1)` | aucune valeur renvoyée |
+| 2 | `100 * (Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}>} [CA Réel]) / Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}>} [CA Budget]) - 1)` | conforme : 1.0753 |
+
+**Effets sur la marge**
+
+Spotfire : `Sum([Montant]) / 1000`, limitée par `[Exercice] = 2026 and [Type] = "Effet"`
+
+| Essai | Réponse de Mistral | Retour de Qlik Sense |
+|---|---|---|
+| 1 | `Sum({<[Exercice]={2026}, [Type de poste]={'Effet'}>} [Écart de marge]) / 1000` | conforme : -1072.4964 |
+
+</details>
+
 Ce que le second essai montre : c'est la boucle « convertir, exécuter, corriger » qui fait passer de 1 à 5 sur 5, pas la conversion seule. Les essais successifs sont dans [`corrections.json`](corrections.json).
 
 ## Plan du dépôt
