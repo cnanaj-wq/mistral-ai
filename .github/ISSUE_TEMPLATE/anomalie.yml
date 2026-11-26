@@ -1,0 +1,20 @@
+name: Anomalie
+description: Quelque chose ne fonctionne pas comme décrit
+labels: [anomalie]
+body:
+  - type: textarea
+    attributes:
+      label: Ce que j'ai lancé
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Ce que j'attendais
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Ce que j'ai obtenu
+      description: Message d'erreur complet, sans secret ni chemin personnel
+    validations:
+      required: true

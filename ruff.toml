@@ -1,0 +1,5 @@
+# Erreurs de syntaxe et noms inutilisés ou indéfinis.
+line-length = 100
+
+[lint]
+select = ["E9", "F"]

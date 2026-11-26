@@ -1,0 +1,12 @@
+name: Idée
+description: Proposer une amélioration
+labels: [idee]
+body:
+  - type: textarea
+    attributes:
+      label: Le besoin
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: La proposition

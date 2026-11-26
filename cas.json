@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ca_cumule",
+    "libelle": "Chiffre d'affaires réel, cumul 2026 sur les mois clôturés",
+    "table_spotfire": "ventes",
+    "limitation_spotfire": "[Exercice] = 2026 and [Mois] <= 10",
+    "expression_spotfire": "Sum([CA Réel])",
+    "qlik_migration_manuelle": "Sum({<Exercice={2026}, [Mois clos]={1}>} [CA Réel])",
+    "valeur_attendue": 74215646.71,
+    "tolerance": 0.01
+  },
+  {
+    "id": "taux_marge",
+    "libelle": "Taux de marge brute en %, cumul 2026 sur les mois clôturés",
+    "table_spotfire": "ventes",
+    "limitation_spotfire": "[Exercice] = 2026 and [Mois] <= 10",
+    "expression_spotfire": "100 * Sum([Marge brute Réel]) / Sum([CA Réel])",
+    "qlik_migration_manuelle": "100 * Sum({<Exercice={2026}, [Mois clos]={1}>} [Marge brute Réel]) / Sum({<Exercice={2026}, [Mois clos]={1}>} [CA Réel])",
+    "valeur_attendue": 29.4514,
+    "tolerance": 0.01
+  },
+  {
+    "id": "ecart_ca_budget",
+    "libelle": "Écart de chiffre d'affaires au budget en %, cumul 2026 sur les mois clôturés",
+    "table_spotfire": "ventes",
+    "limitation_spotfire": "[Exercice] = 2026 and [Mois] <= 10",
+    "expression_spotfire": "100 * (Sum([CA Réel]) / Sum([CA Budget]) - 1)",
+    "qlik_migration_manuelle": "100 * (Sum({<Exercice={2026}, [Mois clos]={1}>} [CA Réel]) / Sum({<Exercice={2026}, [Mois clos]={1}>} [CA Budget]) - 1)",
+    "valeur_attendue": 1.0753,
+    "tolerance": 0.01
+  },
+  {
+    "id": "ebitda",
+    "libelle": "EBITDA réel, cumul 2026 sur les mois clôturés",
+    "table_spotfire": "compte_resultat",
+    "limitation_spotfire": "[Exercice] = 2026 and [Mois] <= 10 and [Ordre] <= 7",
+    "expression_spotfire": "Sum([Réel])",
+    "qlik_migration_manuelle": "Sum({<Exercice={2026}, [Mois clos]={1}, [Ordre rubrique]={\"<=7\"}>} [CR Réel])",
+    "valeur_attendue": 5311850.59,
+    "tolerance": 0.01
+  },
+  {
+    "id": "effets_marge",
+    "libelle": "Somme des effets volume, prix et coûts d'achat en k€, exercice 2026",
+    "table_spotfire": "ecarts_marge",
+    "limitation_spotfire": "[Exercice] = 2026 and [Type] = \"Effet\"",
+    "expression_spotfire": "Sum([Montant]) / 1000",
+    "qlik_migration_manuelle": "Sum({<Exercice={2026}, [Type de poste]={'Effet'}>} [Écart de marge]) / 1000",
+    "valeur_attendue": -1072.4964,
+    "tolerance": 0.01
+  }
+]

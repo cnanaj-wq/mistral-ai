@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+.venv/
+.ruff_cache/
+
+# Fichiers temporaires Excel et Spotfire
+~$*
+*.tmp
+
+# Secrets et réglages locaux
+.env
+_sortie.log
+_avertissements.log
+_diagnostic.log
+_securite.log

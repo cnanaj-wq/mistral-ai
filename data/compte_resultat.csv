@@ -1,0 +1,1153 @@
+﻿Date,Exercice,Mois,Statut,BU,Ordre,Rubrique,Nature,Agrégat,Réel,Budget,N-1,Prévision
+2024-01-01,2024,1,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1264194.34,1317131.65,,1264194.34
+2024-01-01,2024,1,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-782078.3,-812586.76,,-782078.3
+2024-01-01,2024,1,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-156258.87,-159457.31,,-156258.87
+2024-01-01,2024,1,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-46263.89,-47801.22,,-46263.89
+2024-01-01,2024,1,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-61321.82,-65856.58,,-61321.82
+2024-01-01,2024,1,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-38600.92,-38824.39,,-38600.92
+2024-01-01,2024,1,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-16215.12,-16639.02,,-16215.12
+2024-01-01,2024,1,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-28155.36,-27731.71,,-28155.36
+2024-01-01,2024,1,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1603060.77,1609728.07,,1603060.77
+2024-01-01,2024,1,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1100822.47,-1108466.8,,-1100822.47
+2024-01-01,2024,1,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-185529.1,-177938.2,,-185529.1
+2024-01-01,2024,1,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-42073.66,-41729.33,,-42073.66
+2024-01-01,2024,1,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-71840.32,-72437.76,,-71840.32
+2024-01-01,2024,1,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-42029.54,-42366.24,,-42029.54
+2024-01-01,2024,1,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-20324.28,-20335.79,,-20324.28
+2024-01-01,2024,1,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-33851.06,-33892.99,,-33851.06
+2024-01-01,2024,1,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2509779.15,2523928.19,,2509779.15
+2024-01-01,2024,1,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-1922742.68,-1929481.6,,-1922742.68
+2024-01-01,2024,1,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-205623.73,-209434.51,,-205623.73
+2024-01-01,2024,1,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-54742.65,-54602.53,,-54742.65
+2024-01-01,2024,1,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-109903.84,-106004.98,,-109903.84
+2024-01-01,2024,1,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-48425.55,-49278.71,,-48425.55
+2024-01-01,2024,1,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-24083.49,-24639.35,,-24083.49
+2024-01-01,2024,1,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-39467.66,-39422.97,,-39467.66
+2024-01-01,2024,1,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1202056.64,1212535.92,,1202056.64
+2024-01-01,2024,1,Réel,Services,2,Coût des ventes,Charges,Marge brute,-673490.31,-676593.2,,-673490.31
+2024-01-01,2024,1,Réel,Services,3,Frais de personnel,Charges,EBITDA,-210607.9,-215068.06,,-210607.9
+2024-01-01,2024,1,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-21118.01,-21279.65,,-21118.01
+2024-01-01,2024,1,Réel,Services,5,Logistique & transport,Charges,EBITDA,-15163.29,-14550.43,,-15163.29
+2024-01-01,2024,1,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-28013.17,-28008.86,,-28013.17
+2024-01-01,2024,1,Réel,Services,7,IT & systèmes,Charges,EBITDA,-15886.26,-16005.07,,-15886.26
+2024-01-01,2024,1,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-23674.6,-24007.6,,-23674.6
+2024-02-01,2024,2,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1282683.23,1317131.65,,1282683.23
+2024-02-01,2024,2,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-788768.5,-812586.76,,-788768.5
+2024-02-01,2024,2,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-160469.32,-159457.31,,-160469.32
+2024-02-01,2024,2,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-47084.54,-47801.22,,-47084.54
+2024-02-01,2024,2,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-66827.39,-65856.58,,-66827.39
+2024-02-01,2024,2,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-37532.87,-38824.39,,-37532.87
+2024-02-01,2024,2,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-16396.44,-16639.02,,-16396.44
+2024-02-01,2024,2,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-27646.88,-27731.71,,-27646.88
+2024-02-01,2024,2,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1585353.36,1609728.07,,1585353.36
+2024-02-01,2024,2,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1087718.17,-1108466.8,,-1087718.17
+2024-02-01,2024,2,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-181143.42,-177938.2,,-181143.42
+2024-02-01,2024,2,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-42087.02,-41729.33,,-42087.02
+2024-02-01,2024,2,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-72950.24,-72437.76,,-72950.24
+2024-02-01,2024,2,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-42862.9,-42366.24,,-42862.9
+2024-02-01,2024,2,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-20362.34,-20335.79,,-20362.34
+2024-02-01,2024,2,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-34293.48,-33892.99,,-34293.48
+2024-02-01,2024,2,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2347255.78,2368350.01,,2347255.78
+2024-02-01,2024,2,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-1792403.46,-1809067.6,,-1792403.46
+2024-02-01,2024,2,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-209355.17,-209434.51,,-209355.17
+2024-02-01,2024,2,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-54939.3,-53575.72,,-54939.3
+2024-02-01,2024,2,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-99024.16,-99470.7,,-99024.16
+2024-02-01,2024,2,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-49278.17,-49278.71,,-49278.17
+2024-02-01,2024,2,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-24411.68,-24639.35,,-24411.68
+2024-02-01,2024,2,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-39746.26,-39422.97,,-39746.26
+2024-02-01,2024,2,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1053938.41,1033749.43,,1053938.41
+2024-02-01,2024,2,Réel,Services,2,Coût des ventes,Charges,Marge brute,-594088.8,-584525.84,,-594088.8
+2024-02-01,2024,2,Réel,Services,3,Frais de personnel,Charges,EBITDA,-222752.06,-215068.06,,-222752.06
+2024-02-01,2024,2,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-20217.34,-20206.93,,-20217.34
+2024-02-01,2024,2,Réel,Services,5,Logistique & transport,Charges,EBITDA,-12443.97,-12404.99,,-12443.97
+2024-02-01,2024,2,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-28453.42,-28008.86,,-28453.42
+2024-02-01,2024,2,Réel,Services,7,IT & systèmes,Charges,EBITDA,-15705.63,-16005.07,,-15705.63
+2024-02-01,2024,2,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-24239.94,-24007.6,,-24239.94
+2024-03-01,2024,3,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1499205.99,1456006.17,,1499205.99
+2024-03-01,2024,3,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-921265.42,-898267.76,,-921265.42
+2024-03-01,2024,3,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-160314.52,-159457.31,,-160314.52
+2024-03-01,2024,3,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-49295.05,-49259.4,,-49295.05
+2024-03-01,2024,3,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-75211.29,-72800.31,,-75211.29
+2024-03-01,2024,3,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-37725.3,-38824.39,,-37725.3
+2024-03-01,2024,3,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-16554.97,-16639.02,,-16554.97
+2024-03-01,2024,3,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-28042.71,-27731.71,,-28042.71
+2024-03-01,2024,3,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1800262.06,1779733.0,,1800262.06
+2024-03-01,2024,3,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1240331.37,-1225553.2,,-1240331.37
+2024-03-01,2024,3,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-176472.32,-177938.2,,-176472.32
+2024-03-01,2024,3,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-42635.53,-43004.36,,-42635.53
+2024-03-01,2024,3,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-80236.65,-80087.99,,-80236.65
+2024-03-01,2024,3,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-42952.12,-42366.24,,-42952.12
+2024-03-01,2024,3,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-19926.5,-20335.79,,-19926.5
+2024-03-01,2024,3,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-34134.85,-33892.99,,-34134.85
+2024-03-01,2024,3,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2271041.61,2257199.05,,2271041.61
+2024-03-01,2024,3,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-1724467.28,-1720359.8,,-1724467.28
+2024-03-01,2024,3,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-211045.22,-209434.51,,-211045.22
+2024-03-01,2024,3,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-53944.14,-52842.12,,-53944.14
+2024-03-01,2024,3,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-94626.64,-94802.36,,-94626.64
+2024-03-01,2024,3,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-48290.18,-49278.71,,-48290.18
+2024-03-01,2024,3,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-25482.03,-24639.35,,-25482.03
+2024-03-01,2024,3,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-39684.79,-39422.97,,-39684.79
+2024-03-01,2024,3,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1004401.25,1001850.05,,1004401.25
+2024-03-01,2024,3,Réel,Services,2,Coût des ventes,Charges,Marge brute,-572406.76,-569399.36,,-572406.76
+2024-03-01,2024,3,Réel,Services,3,Frais de personnel,Charges,EBITDA,-208054.39,-215068.06,,-208054.39
+2024-03-01,2024,3,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-20370.13,-20015.53,,-20370.13
+2024-03-01,2024,3,Réel,Services,5,Logistique & transport,Charges,EBITDA,-12006.15,-12022.2,,-12006.15
+2024-03-01,2024,3,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-27814.41,-28008.86,,-27814.41
+2024-03-01,2024,3,Réel,Services,7,IT & systèmes,Charges,EBITDA,-16048.18,-16005.07,,-16048.18
+2024-03-01,2024,3,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-24096.62,-24007.6,,-24096.62
+2024-04-01,2024,4,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1392460.05,1386533.21,,1392460.05
+2024-04-01,2024,4,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-854153.23,-855406.58,,-854153.23
+2024-04-01,2024,4,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-154728.79,-159457.31,,-154728.79
+2024-04-01,2024,4,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-48747.72,-48529.94,,-48747.72
+2024-04-01,2024,4,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-69633.42,-69326.66,,-69633.42
+2024-04-01,2024,4,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-38799.9,-38824.39,,-38799.9
+2024-04-01,2024,4,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-17360.71,-16639.02,,-17360.71
+2024-04-01,2024,4,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-27752.25,-27731.71,,-27752.25
+2024-04-01,2024,4,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1691544.8,1694475.26,,1691544.8
+2024-04-01,2024,4,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1159693.2,-1166843.62,,-1159693.2
+2024-04-01,2024,4,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-174196.12,-177938.2,,-174196.12
+2024-04-01,2024,4,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-41269.6,-42364.93,,-41269.6
+2024-04-01,2024,4,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-76225.44,-76251.39,,-76225.44
+2024-04-01,2024,4,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-42482.76,-42366.24,,-42482.76
+2024-04-01,2024,4,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-20620.67,-20335.79,,-20620.67
+2024-04-01,2024,4,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-33597.62,-33892.99,,-33597.62
+2024-04-01,2024,4,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2149936.36,2149530.33,,2149936.36
+2024-04-01,2024,4,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-1627239.75,-1633184.2,,-1627239.75
+2024-04-01,2024,4,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-212065.63,-209434.51,,-212065.63
+2024-04-01,2024,4,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-51721.25,-52131.51,,-51721.25
+2024-04-01,2024,4,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-87541.42,-90280.27,,-87541.42
+2024-04-01,2024,4,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-51285.86,-49278.71,,-51285.86
+2024-04-01,2024,4,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-25592.35,-24639.35,,-25592.35
+2024-04-01,2024,4,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-39896.42,-39422.97,,-39896.42
+2024-04-01,2024,4,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,928911.28,933086.41,,928911.28
+2024-04-01,2024,4,Réel,Services,2,Coût des ventes,Charges,Marge brute,-525458.74,-530364.92,,-525458.74
+2024-04-01,2024,4,Réel,Services,3,Frais de personnel,Charges,EBITDA,-209661.91,-215068.06,,-209661.91
+2024-04-01,2024,4,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-19800.5,-19602.95,,-19800.5
+2024-04-01,2024,4,Réel,Services,5,Logistique & transport,Charges,EBITDA,-10966.33,-11197.04,,-10966.33
+2024-04-01,2024,4,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-28765.83,-28008.86,,-28765.83
+2024-04-01,2024,4,Réel,Services,7,IT & systèmes,Charges,EBITDA,-15885.4,-16005.07,,-15885.4
+2024-04-01,2024,4,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-24062.72,-24007.6,,-24062.72
+2024-05-01,2024,5,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1361554.98,1386533.21,,1361554.98
+2024-05-01,2024,5,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-840495.06,-855406.58,,-840495.06
+2024-05-01,2024,5,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-164190.76,-159457.31,,-164190.76
+2024-05-01,2024,5,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-47898.63,-48529.94,,-47898.63
+2024-05-01,2024,5,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-69706.53,-69326.66,,-69706.53
+2024-05-01,2024,5,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-38851.6,-38824.39,,-38851.6
+2024-05-01,2024,5,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-16509.35,-16639.02,,-16509.35
+2024-05-01,2024,5,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-27756.24,-27731.71,,-27756.24
+2024-05-01,2024,5,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1685779.61,1694475.26,,1685779.61
+2024-05-01,2024,5,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1161386.84,-1166843.62,,-1161386.84
+2024-05-01,2024,5,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-175020.79,-177938.2,,-175020.79
+2024-05-01,2024,5,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-43055.79,-42364.93,,-43055.79
+2024-05-01,2024,5,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-76165.93,-76251.39,,-76165.93
+2024-05-01,2024,5,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-40117.57,-42366.24,,-40117.57
+2024-05-01,2024,5,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-20022.58,-20335.79,,-20022.58
+2024-05-01,2024,5,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-34258.34,-33892.99,,-34258.34
+2024-05-01,2024,5,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2216946.03,2221637.23,,2216946.03
+2024-05-01,2024,5,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-1670426.24,-1682731.6,,-1670426.24
+2024-05-01,2024,5,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-212903.57,-209434.51,,-212903.57
+2024-05-01,2024,5,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-51039.71,-52607.41,,-51039.71
+2024-05-01,2024,5,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-92369.63,-93308.76,,-92369.63
+2024-05-01,2024,5,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-49213.3,-49278.71,,-49213.3
+2024-05-01,2024,5,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-24969.59,-24639.35,,-24969.59
+2024-05-01,2024,5,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-39956.51,-39422.97,,-39956.51
+2024-05-01,2024,5,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,886905.1,914646.62,,886905.1
+2024-05-01,2024,5,Réel,Services,2,Coût des ventes,Charges,Marge brute,-503581.65,-519827.52,,-503581.65
+2024-05-01,2024,5,Réel,Services,3,Frais de personnel,Charges,EBITDA,-214500.94,-215068.06,,-214500.94
+2024-05-01,2024,5,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-18951.83,-19492.31,,-18951.83
+2024-05-01,2024,5,Réel,Services,5,Logistique & transport,Charges,EBITDA,-10588.81,-10975.76,,-10588.81
+2024-05-01,2024,5,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-27572.28,-28008.86,,-27572.28
+2024-05-01,2024,5,Réel,Services,7,IT & systèmes,Charges,EBITDA,-16909.96,-16005.07,,-16909.96
+2024-05-01,2024,5,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-24058.68,-24007.6,,-24058.68
+2024-06-01,2024,6,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1407649.54,1456006.17,,1407649.54
+2024-06-01,2024,6,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-870206.01,-898267.76,,-870206.01
+2024-06-01,2024,6,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-158089.98,-159457.31,,-158089.98
+2024-06-01,2024,6,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-46692.85,-49259.4,,-46692.85
+2024-06-01,2024,6,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-68133.69,-72800.31,,-68133.69
+2024-06-01,2024,6,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-39127.21,-38824.39,,-39127.21
+2024-06-01,2024,6,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-16793.99,-16639.02,,-16793.99
+2024-06-01,2024,6,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-28087.01,-27731.71,,-28087.01
+2024-06-01,2024,6,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1749111.84,1779733.0,,1749111.84
+2024-06-01,2024,6,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1209030.5,-1225553.2,,-1209030.5
+2024-06-01,2024,6,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-170832.95,-177938.2,,-170832.95
+2024-06-01,2024,6,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-43487.16,-43004.36,,-43487.16
+2024-06-01,2024,6,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-78501.29,-80087.99,,-78501.29
+2024-06-01,2024,6,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-41917.15,-42366.24,,-41917.15
+2024-06-01,2024,6,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-19682.59,-20335.79,,-19682.59
+2024-06-01,2024,6,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-33856.92,-33892.99,,-33856.92
+2024-06-01,2024,6,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2306943.03,2368938.07,,2306943.03
+2024-06-01,2024,6,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-1746910.85,-1789882.2,,-1746910.85
+2024-06-01,2024,6,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-214855.54,-209434.51,,-214855.54
+2024-06-01,2024,6,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-52556.59,-53579.6,,-52556.59
+2024-06-01,2024,6,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-95317.36,-99495.4,,-95317.36
+2024-06-01,2024,6,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-48587.17,-49278.71,,-48587.17
+2024-06-01,2024,6,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-24603.85,-24639.35,,-24603.85
+2024-06-01,2024,6,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-39289.2,-39422.97,,-39289.2
+2024-06-01,2024,6,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,952549.18,945744.38,,952549.18
+2024-06-01,2024,6,Réel,Services,2,Coût des ventes,Charges,Marge brute,-544707.26,-538614.36,,-544707.26
+2024-06-01,2024,6,Réel,Services,3,Frais de personnel,Charges,EBITDA,-210759.0,-215068.06,,-210759.0
+2024-06-01,2024,6,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-19335.94,-19678.9,,-19335.94
+2024-06-01,2024,6,Réel,Services,5,Logistique & transport,Charges,EBITDA,-11418.56,-11348.93,,-11418.56
+2024-06-01,2024,6,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-28959.56,-28008.86,,-28959.56
+2024-06-01,2024,6,Réel,Services,7,IT & systèmes,Charges,EBITDA,-16081.32,-16005.07,,-16081.32
+2024-06-01,2024,6,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-24149.74,-24007.6,,-24149.74
+2024-07-01,2024,7,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1277886.75,1317131.65,,1277886.75
+2024-07-01,2024,7,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-792760.49,-812586.76,,-792760.49
+2024-07-01,2024,7,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-155940.93,-159457.31,,-155940.93
+2024-07-01,2024,7,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-46538.61,-47801.22,,-46538.61
+2024-07-01,2024,7,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-63852.26,-65856.58,,-63852.26
+2024-07-01,2024,7,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-40244.68,-38824.39,,-40244.68
+2024-07-01,2024,7,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-16529.22,-16639.02,,-16529.22
+2024-07-01,2024,7,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-27941.94,-27731.71,,-27941.94
+2024-07-01,2024,7,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1606201.29,1609728.07,,1606201.29
+2024-07-01,2024,7,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1111495.37,-1108466.8,,-1111495.37
+2024-07-01,2024,7,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-176736.98,-177938.2,,-176736.98
+2024-07-01,2024,7,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-42090.55,-41729.33,,-42090.55
+2024-07-01,2024,7,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-72458.27,-72437.76,,-72458.27
+2024-07-01,2024,7,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-41152.4,-42366.24,,-41152.4
+2024-07-01,2024,7,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-20697.89,-20335.79,,-20697.89
+2024-07-01,2024,7,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-33980.22,-33892.99,,-33980.22
+2024-07-01,2024,7,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2161447.21,2210950.68,,2161447.21
+2024-07-01,2024,7,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-1636648.85,-1669985.2,,-1636648.85
+2024-07-01,2024,7,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-204798.15,-209434.51,,-204798.15
+2024-07-01,2024,7,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-51628.13,-52536.88,,-51628.13
+2024-07-01,2024,7,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-87601.4,-92859.93,,-87601.4
+2024-07-01,2024,7,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-47816.57,-49278.71,,-47816.57
+2024-07-01,2024,7,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-24161.57,-24639.35,,-24161.57
+2024-07-01,2024,7,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-39008.14,-39422.97,,-39008.14
+2024-07-01,2024,7,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,856645.95,873761.55,,856645.95
+2024-07-01,2024,7,Réel,Services,2,Coût des ventes,Charges,Marge brute,-489312.29,-498057.12,,-489312.29
+2024-07-01,2024,7,Réel,Services,3,Frais de personnel,Charges,EBITDA,-214464.84,-215068.06,,-214464.84
+2024-07-01,2024,7,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-19347.24,-19247.0,,-19347.24
+2024-07-01,2024,7,Réel,Services,5,Logistique & transport,Charges,EBITDA,-10257.36,-10485.14,,-10257.36
+2024-07-01,2024,7,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-27661.51,-28008.86,,-27661.51
+2024-07-01,2024,7,Réel,Services,7,IT & systèmes,Charges,EBITDA,-15379.32,-16005.07,,-15379.32
+2024-07-01,2024,7,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-24181.16,-24007.6,,-24181.16
+2024-08-01,2024,8,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,963877.6,970427.32,,963877.6
+2024-08-01,2024,8,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-594784.5,-598686.94,,-594784.5
+2024-08-01,2024,8,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-158040.85,-159457.31,,-158040.85
+2024-08-01,2024,8,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-44035.52,-44160.83,,-44035.52
+2024-08-01,2024,8,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-48100.01,-48521.37,,-48100.01
+2024-08-01,2024,8,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-39128.15,-38824.39,,-39128.15
+2024-08-01,2024,8,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-16441.25,-16639.02,,-16441.25
+2024-08-01,2024,8,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-28024.17,-27731.71,,-28024.17
+2024-08-01,2024,8,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1182954.71,1186490.91,,1182954.71
+2024-08-01,2024,8,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-810205.07,-817040.48,,-810205.07
+2024-08-01,2024,8,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-182635.85,-177938.2,,-182635.85
+2024-08-01,2024,8,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-36901.59,-38555.05,,-36901.59
+2024-08-01,2024,8,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-52673.97,-53392.09,,-52673.97
+2024-08-01,2024,8,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-42050.15,-42366.24,,-42050.15
+2024-08-01,2024,8,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-19906.23,-20335.79,,-19906.23
+2024-08-01,2024,8,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-34326.94,-33892.99,,-34326.94
+2024-08-01,2024,8,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,1517775.3,1541805.36,,1517775.3
+2024-08-01,2024,8,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-1149859.58,-1168391.8,,-1149859.58
+2024-08-01,2024,8,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-207374.87,-209434.51,,-207374.87
+2024-08-01,2024,8,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-49119.3,-48120.52,,-49119.3
+2024-08-01,2024,8,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-62702.58,-64755.83,,-62702.58
+2024-08-01,2024,8,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-50581.32,-49278.71,,-50581.32
+2024-08-01,2024,8,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-24354.29,-24639.35,,-24354.29
+2024-08-01,2024,8,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-39307.85,-39422.97,,-39307.85
+2024-08-01,2024,8,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,690655.88,700293.17,,690655.88
+2024-08-01,2024,8,Réel,Services,2,Coût des ventes,Charges,Marge brute,-387219.14,-396510.8,,-387219.14
+2024-08-01,2024,8,Réel,Services,3,Frais de personnel,Charges,EBITDA,-216572.85,-215068.06,,-216572.85
+2024-08-01,2024,8,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-17890.86,-18206.19,,-17890.86
+2024-08-01,2024,8,Réel,Services,5,Logistique & transport,Charges,EBITDA,-8314.54,-8403.52,,-8314.54
+2024-08-01,2024,8,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-27094.73,-28008.86,,-27094.73
+2024-08-01,2024,8,Réel,Services,7,IT & systèmes,Charges,EBITDA,-16356.53,-16005.07,,-16356.53
+2024-08-01,2024,8,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-24304.6,-24007.6,,-24304.6
+2024-09-01,2024,9,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1524438.3,1525372.01,,1524438.3
+2024-09-01,2024,9,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-934819.82,-941067.84,,-934819.82
+2024-09-01,2024,9,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-162807.61,-159457.31,,-162807.61
+2024-09-01,2024,9,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-49172.26,-49987.75,,-49172.26
+2024-09-01,2024,9,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-77029.89,-76268.6,,-77029.89
+2024-09-01,2024,9,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-39500.4,-38824.39,,-39500.4
+2024-09-01,2024,9,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-16533.52,-16639.02,,-16533.52
+2024-09-01,2024,9,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-27682.04,-27731.71,,-27682.04
+2024-09-01,2024,9,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1859605.99,1863989.86,,1859605.99
+2024-09-01,2024,9,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1281706.87,-1283568.12,,-1281706.87
+2024-09-01,2024,9,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-186697.88,-177938.2,,-186697.88
+2024-09-01,2024,9,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-42627.2,-43636.29,,-42627.2
+2024-09-01,2024,9,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-82123.93,-83879.54,,-82123.93
+2024-09-01,2024,9,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-42461.46,-42366.24,,-42461.46
+2024-09-01,2024,9,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-20652.71,-20335.79,,-20652.71
+2024-09-01,2024,9,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-33552.32,-33892.99,,-33552.32
+2024-09-01,2024,9,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2493514.19,2522492.25,,2493514.19
+2024-09-01,2024,9,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-1901194.36,-1923653.6,,-1901194.36
+2024-09-01,2024,9,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-209786.36,-209434.51,,-209786.36
+2024-09-01,2024,9,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-55126.31,-54593.05,,-55126.31
+2024-09-01,2024,9,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-107495.07,-105944.67,,-107495.07
+2024-09-01,2024,9,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-48458.91,-49278.71,,-48458.91
+2024-09-01,2024,9,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-24337.57,-24639.35,,-24337.57
+2024-09-01,2024,9,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-39821.0,-39422.97,,-39821.0
+2024-09-01,2024,9,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1147722.32,1142299.09,,1147722.32
+2024-09-01,2024,9,Réel,Services,2,Coût des ventes,Charges,Marge brute,-644051.37,-641871.48,,-644051.37
+2024-09-01,2024,9,Réel,Services,3,Frais de personnel,Charges,EBITDA,-224226.52,-215068.06,,-224226.52
+2024-09-01,2024,9,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-20752.69,-20858.23,,-20752.69
+2024-09-01,2024,9,Réel,Services,5,Logistique & transport,Charges,EBITDA,-13831.41,-13707.59,,-13831.41
+2024-09-01,2024,9,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-28634.54,-28008.86,,-28634.54
+2024-09-01,2024,9,Réel,Services,7,IT & systèmes,Charges,EBITDA,-16317.65,-16005.07,,-16317.65
+2024-09-01,2024,9,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-24249.41,-24007.6,,-24249.41
+2024-10-01,2024,10,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1523649.38,1525372.01,,1523649.38
+2024-10-01,2024,10,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-943880.62,-941067.84,,-943880.62
+2024-10-01,2024,10,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-158333.21,-159457.31,,-158333.21
+2024-10-01,2024,10,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-49731.83,-49987.75,,-49731.83
+2024-10-01,2024,10,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-77445.02,-76268.6,,-77445.02
+2024-10-01,2024,10,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-37813.16,-38824.39,,-37813.16
+2024-10-01,2024,10,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-16642.28,-16639.02,,-16642.28
+2024-10-01,2024,10,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-27788.03,-27731.71,,-27788.03
+2024-10-01,2024,10,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1834604.49,1863989.86,,1834604.49
+2024-10-01,2024,10,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1261678.7,-1283568.12,,-1261678.7
+2024-10-01,2024,10,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-172773.83,-177938.2,,-172773.83
+2024-10-01,2024,10,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-44922.87,-43636.29,,-44922.87
+2024-10-01,2024,10,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-83735.53,-83879.54,,-83735.53
+2024-10-01,2024,10,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-43109.71,-42366.24,,-43109.71
+2024-10-01,2024,10,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-20336.11,-20335.79,,-20336.11
+2024-10-01,2024,10,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-33902.48,-33892.99,,-33902.48
+2024-10-01,2024,10,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2940738.67,3021269.81,,2940738.67
+2024-10-01,2024,10,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-2248349.86,-2308282.8,,-2248349.86
+2024-10-01,2024,10,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-208816.43,-209434.51,,-208816.43
+2024-10-01,2024,10,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-58325.77,-57884.99,,-58325.77
+2024-10-01,2024,10,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-125791.82,-126893.33,,-125791.82
+2024-10-01,2024,10,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-49579.08,-49278.71,,-49579.08
+2024-10-01,2024,10,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-24937.34,-24639.35,,-24937.34
+2024-10-01,2024,10,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-38847.15,-39422.97,,-38847.15
+2024-10-01,2024,10,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1106434.15,1091081.45,,1106434.15
+2024-10-01,2024,10,Réel,Services,2,Coût des ventes,Charges,Marge brute,-623201.28,-617551.8,,-623201.28
+2024-10-01,2024,10,Réel,Services,3,Frais de personnel,Charges,EBITDA,-214458.84,-215068.06,,-214458.84
+2024-10-01,2024,10,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-19626.5,-20550.92,,-19626.5
+2024-10-01,2024,10,Réel,Services,5,Logistique & transport,Charges,EBITDA,-13036.18,-13092.98,,-13036.18
+2024-10-01,2024,10,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-28349.88,-28008.86,,-28349.88
+2024-10-01,2024,10,Réel,Services,7,IT & systèmes,Charges,EBITDA,-15515.83,-16005.07,,-15515.83
+2024-10-01,2024,10,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-24052.3,-24007.6,,-24052.3
+2024-11-01,2024,11,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1540752.46,1525372.01,,1540752.46
+2024-11-01,2024,11,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-953341.33,-941067.84,,-953341.33
+2024-11-01,2024,11,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-159525.32,-159457.31,,-159525.32
+2024-11-01,2024,11,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-49305.39,-49987.75,,-49305.39
+2024-11-01,2024,11,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-75843.47,-76268.6,,-75843.47
+2024-11-01,2024,11,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-38665.34,-38824.39,,-38665.34
+2024-11-01,2024,11,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-16556.61,-16639.02,,-16556.61
+2024-11-01,2024,11,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-27821.38,-27731.71,,-27821.38
+2024-11-01,2024,11,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1790316.99,1863989.86,,1790316.99
+2024-11-01,2024,11,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1233514.55,-1283568.12,,-1233514.55
+2024-11-01,2024,11,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-180852.84,-177938.2,,-180852.84
+2024-11-01,2024,11,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-43954.83,-43636.29,,-43954.83
+2024-11-01,2024,11,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-80766.17,-83879.54,,-80766.17
+2024-11-01,2024,11,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-43103.38,-42366.24,,-43103.38
+2024-11-01,2024,11,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-20388.62,-20335.79,,-20388.62
+2024-11-01,2024,11,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-34372.72,-33892.99,,-34372.72
+2024-11-01,2024,11,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,3142519.17,3175147.96,,3142519.17
+2024-11-01,2024,11,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-2421282.18,-2427070.6,,-2421282.18
+2024-11-01,2024,11,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-211125.35,-209434.51,,-211125.35
+2024-11-01,2024,11,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-59845.46,-58900.58,,-59845.46
+2024-11-01,2024,11,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-129510.21,-133356.21,,-129510.21
+2024-11-01,2024,11,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-47933.54,-49278.71,,-47933.54
+2024-11-01,2024,11,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-24231.24,-24639.35,,-24231.24
+2024-11-01,2024,11,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-39080.74,-39422.97,,-39080.74
+2024-11-01,2024,11,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1022537.07,1088257.69,,1022537.07
+2024-11-01,2024,11,Réel,Services,2,Coût des ventes,Charges,Marge brute,-580845.46,-617235.96,,-580845.46
+2024-11-01,2024,11,Réel,Services,3,Frais de personnel,Charges,EBITDA,-214370.35,-215068.06,,-214370.35
+2024-11-01,2024,11,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-20208.18,-20533.98,,-20208.18
+2024-11-01,2024,11,Réel,Services,5,Logistique & transport,Charges,EBITDA,-12626.33,-13059.09,,-12626.33
+2024-11-01,2024,11,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-27743.19,-28008.86,,-27743.19
+2024-11-01,2024,11,Réel,Services,7,IT & systèmes,Charges,EBITDA,-16597.94,-16005.07,,-16597.94
+2024-11-01,2024,11,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-23803.13,-24007.6,,-23803.13
+2024-12-01,2024,12,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1428173.02,1456006.17,,1428173.02
+2024-12-01,2024,12,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-883910.48,-898267.76,,-883910.48
+2024-12-01,2024,12,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-156944.49,-159457.31,,-156944.49
+2024-12-01,2024,12,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-48888.98,-49259.4,,-48888.98
+2024-12-01,2024,12,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-76138.28,-72800.31,,-76138.28
+2024-12-01,2024,12,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-37731.85,-38824.39,,-37731.85
+2024-12-01,2024,12,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-16283.56,-16639.02,,-16283.56
+2024-12-01,2024,12,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-27510.68,-27731.71,,-27510.68
+2024-12-01,2024,12,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1800280.96,1779733.0,,1800280.96
+2024-12-01,2024,12,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1239375.42,-1225553.2,,-1239375.42
+2024-12-01,2024,12,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-170261.61,-177938.2,,-170261.61
+2024-12-01,2024,12,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-40757.43,-43004.36,,-40757.43
+2024-12-01,2024,12,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-84598.83,-80087.99,,-84598.83
+2024-12-01,2024,12,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-42776.56,-42366.24,,-42776.56
+2024-12-01,2024,12,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-21034.3,-20335.79,,-21034.3
+2024-12-01,2024,12,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-33641.65,-33892.99,,-33641.65
+2024-12-01,2024,12,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,3120714.4,3205976.41,,3120714.4
+2024-12-01,2024,12,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-2380340.59,-2449987.8,,-2380340.59
+2024-12-01,2024,12,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-210912.61,-209434.51,,-210912.61
+2024-12-01,2024,12,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-59680.2,-59104.05,,-59680.2
+2024-12-01,2024,12,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-129939.05,-134651.01,,-129939.05
+2024-12-01,2024,12,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-50477.98,-49278.71,,-50477.98
+2024-12-01,2024,12,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-24525.36,-24639.35,,-24525.36
+2024-12-01,2024,12,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-39834.12,-39422.97,,-39834.12
+2024-12-01,2024,12,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1076382.2,1066493.17,,1076382.2
+2024-12-01,2024,12,Réel,Services,2,Coût des ventes,Charges,Marge brute,-613581.63,-605141.92,,-613581.63
+2024-12-01,2024,12,Réel,Services,3,Frais de personnel,Charges,EBITDA,-210531.13,-215068.06,,-210531.13
+2024-12-01,2024,12,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-20022.98,-20403.39,,-20022.98
+2024-12-01,2024,12,Réel,Services,5,Logistique & transport,Charges,EBITDA,-13001.0,-12797.92,,-13001.0
+2024-12-01,2024,12,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-27666.05,-28008.86,,-27666.05
+2024-12-01,2024,12,Réel,Services,7,IT & systèmes,Charges,EBITDA,-15472.89,-16005.07,,-15472.89
+2024-12-01,2024,12,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-24013.26,-24007.6,,-24013.26
+2025-01-01,2025,1,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1439908.69,1413320.82,1264194.34,1439908.69
+2025-01-01,2025,1,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-890926.4,-876725.79,-782078.3,-890926.4
+2025-01-01,2025,1,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-172683.18,-171066.14,-156258.87,-172683.18
+2025-01-01,2025,1,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-52375.23,-51284.39,-46263.89,-52375.23
+2025-01-01,2025,1,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-70625.17,-70666.04,-61321.82,-70625.17
+2025-01-01,2025,1,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-41314.59,-41650.89,-38600.92,-41314.59
+2025-01-01,2025,1,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-17384.64,-17850.38,-16215.12,-17384.64
+2025-01-01,2025,1,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-29809.79,-29750.63,-28155.36,-29809.79
+2025-01-01,2025,1,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1698950.99,1726875.43,1603060.77,1698950.99
+2025-01-01,2025,1,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1183709.99,-1195647.35,-1100822.47,-1183709.99
+2025-01-01,2025,1,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-180454.5,-190873.41,-185529.1,-180454.5
+2025-01-01,2025,1,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-45188.77,-44763.8,-42073.66,-45188.77
+2025-01-01,2025,1,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-77112.24,-77709.39,-71840.32,-77112.24
+2025-01-01,2025,1,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-46175.16,-45446.05,-42029.54,-46175.16
+2025-01-01,2025,1,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-21821.76,-21814.1,-20324.28,-21821.76
+2025-01-01,2025,1,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-35984.99,-36356.84,-33851.06,-35984.99
+2025-01-01,2025,1,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2775467.89,2713457.32,2509779.15,2775467.89
+2025-01-01,2025,1,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-2139350.97,-2085788.25,-1922742.68,-2139350.97
+2025-01-01,2025,1,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-227519.42,-224820.06,-205623.73,-227519.42
+2025-01-01,2025,1,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-60860.91,-58640.92,-54742.65,-60860.91
+2025-01-01,2025,1,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-120396.32,-113965.21,-109903.84,-120396.32
+2025-01-01,2025,1,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-54988.34,-52898.84,-48425.55,-54988.34
+2025-01-01,2025,1,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-26193.6,-26449.42,-24083.49,-26193.6
+2025-01-01,2025,1,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-41810.93,-42319.07,-39467.66,-41810.93
+2025-01-01,2025,1,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1340567.9,1301812.79,1202056.64,1340567.9
+2025-01-01,2025,1,Réel,Services,2,Coût des ventes,Charges,Marge brute,-754824.39,-730440.75,-673490.31,-754824.39
+2025-01-01,2025,1,Réel,Services,3,Frais de personnel,Charges,EBITDA,-238784.91,-230708.82,-210607.9,-238784.91
+2025-01-01,2025,1,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-23061.06,-22833.78,-21118.01,-23061.06
+2025-01-01,2025,1,Réel,Services,5,Logistique & transport,Charges,EBITDA,-15990.61,-15621.75,-15163.29,-15990.61
+2025-01-01,2025,1,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-28904.62,-30045.8,-28013.17,-28904.62
+2025-01-01,2025,1,Réel,Services,7,IT & systèmes,Charges,EBITDA,-16499.82,-17169.03,-15886.26,-16499.82
+2025-01-01,2025,1,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-25572.31,-25753.54,-23674.6,-25572.31
+2025-02-01,2025,2,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1398336.46,1413320.82,1282683.23,1398336.46
+2025-02-01,2025,2,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-872306.5,-876725.79,-788768.5,-872306.5
+2025-02-01,2025,2,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-167329.59,-171066.14,-160469.32,-167329.59
+2025-02-01,2025,2,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-50284.17,-51284.39,-47084.54,-50284.17
+2025-02-01,2025,2,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-71035.73,-70666.04,-66827.39,-71035.73
+2025-02-01,2025,2,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-42661.62,-41650.89,-37532.87,-42661.62
+2025-02-01,2025,2,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-17373.41,-17850.38,-16396.44,-17373.41
+2025-02-01,2025,2,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-29777.42,-29750.63,-27646.88,-29777.42
+2025-02-01,2025,2,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1744157.42,1726875.43,1585353.36,1744157.42
+2025-02-01,2025,2,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1208273.15,-1195647.35,-1087718.17,-1208273.15
+2025-02-01,2025,2,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-187801.78,-190873.41,-181143.42,-187801.78
+2025-02-01,2025,2,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-46361.45,-44763.8,-42087.02,-46361.45
+2025-02-01,2025,2,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-79875.17,-77709.39,-72950.24,-79875.17
+2025-02-01,2025,2,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-43986.91,-45446.05,-42862.9,-43986.91
+2025-02-01,2025,2,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-21597.86,-21814.1,-20362.34,-21597.86
+2025-02-01,2025,2,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-36759.03,-36356.84,-34293.48,-36759.03
+2025-02-01,2025,2,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2574112.62,2552223.31,2347255.78,2574112.62
+2025-02-01,2025,2,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-1974290.62,-1960754.25,-1792403.46,-1974290.62
+2025-02-01,2025,2,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-220031.75,-224820.06,-209355.17,-220031.75
+2025-02-01,2025,2,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-59630.0,-57576.78,-54939.3,-59630.0
+2025-02-01,2025,2,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-109368.69,-107193.38,-99024.16,-109368.69
+2025-02-01,2025,2,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-52707.13,-52898.84,-49278.17,-52707.13
+2025-02-01,2025,2,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-26820.67,-26449.42,-24411.68,-26820.67
+2025-02-01,2025,2,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-42640.74,-42319.07,-39746.26,-42640.74
+2025-02-01,2025,2,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1124394.85,1110498.45,1053938.41,1124394.85
+2025-02-01,2025,2,Réel,Services,2,Coût des ventes,Charges,Marge brute,-642148.19,-631408.05,-594088.8,-642148.19
+2025-02-01,2025,2,Réel,Services,3,Frais de personnel,Charges,EBITDA,-227897.71,-230708.82,-222752.06,-227897.71
+2025-02-01,2025,2,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-22238.51,-21685.89,-20217.34,-22238.51
+2025-02-01,2025,2,Réel,Services,5,Logistique & transport,Charges,EBITDA,-14091.33,-13325.98,-12443.97,-14091.33
+2025-02-01,2025,2,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-30432.15,-30045.8,-28453.42,-30432.15
+2025-02-01,2025,2,Réel,Services,7,IT & systèmes,Charges,EBITDA,-17331.68,-17169.03,-15705.63,-17331.68
+2025-02-01,2025,2,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-25660.81,-25753.54,-24239.94,-25660.81
+2025-03-01,2025,3,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1632613.71,1561740.26,1499205.99,1632613.71
+2025-03-01,2025,3,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-1008121.48,-968783.35,-921265.42,-1008121.48
+2025-03-01,2025,3,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-168833.95,-171066.14,-160314.52,-168833.95
+2025-03-01,2025,3,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-53699.89,-52842.8,-49295.05,-53699.89
+2025-03-01,2025,3,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-82746.21,-78087.01,-75211.29,-82746.21
+2025-03-01,2025,3,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-41559.17,-41650.89,-37725.3,-41559.17
+2025-03-01,2025,3,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-17749.97,-17850.38,-16554.97,-17749.97
+2025-03-01,2025,3,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-30196.6,-29750.63,-28042.71,-30196.6
+2025-03-01,2025,3,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1938383.16,1908181.63,1800262.06,1938383.16
+2025-03-01,2025,3,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1347304.1,-1321179.59,-1240331.37,-1347304.1
+2025-03-01,2025,3,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-197701.77,-190873.41,-176472.32,-197701.77
+2025-03-01,2025,3,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-46739.03,-46123.6,-42635.53,-46739.03
+2025-03-01,2025,3,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-85525.38,-85868.17,-80236.65,-85525.38
+2025-03-01,2025,3,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-43352.36,-45446.05,-42952.12,-43352.36
+2025-03-01,2025,3,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-21532.54,-21814.1,-19926.5,-21532.54
+2025-03-01,2025,3,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-36032.16,-36356.84,-34134.85,-36032.16
+2025-03-01,2025,3,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2387361.03,2412916.31,2271041.61,2387361.03
+2025-03-01,2025,3,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-1834263.73,-1848902.25,-1724467.28,-1834263.73
+2025-03-01,2025,3,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-222087.42,-224820.06,-211045.22,-222087.42
+2025-03-01,2025,3,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-55626.03,-56657.35,-53944.14,-55626.03
+2025-03-01,2025,3,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-95895.2,-101342.49,-94626.64,-95895.2
+2025-03-01,2025,3,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-52450.01,-52898.84,-48290.18,-52450.01
+2025-03-01,2025,3,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-26345.0,-26449.42,-25482.03,-26345.0
+2025-03-01,2025,3,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-42776.03,-42319.07,-39684.79,-42776.03
+2025-03-01,2025,3,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1100631.9,1074154.39,1004401.25,1100631.9
+2025-03-01,2025,3,Réel,Services,2,Coût des ventes,Charges,Marge brute,-626461.6,-613711.8,-572406.76,-626461.6
+2025-03-01,2025,3,Réel,Services,3,Frais de personnel,Charges,EBITDA,-228396.48,-230708.82,-208054.39,-228396.48
+2025-03-01,2025,3,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-22184.88,-21467.83,-20370.13,-22184.88
+2025-03-01,2025,3,Réel,Services,5,Logistique & transport,Charges,EBITDA,-13205.16,-12889.85,-12006.15,-13205.16
+2025-03-01,2025,3,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-30110.31,-30045.8,-27814.41,-30110.31
+2025-03-01,2025,3,Réel,Services,7,IT & systèmes,Charges,EBITDA,-17475.27,-17169.03,-16048.18,-17475.27
+2025-03-01,2025,3,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-25691.1,-25753.54,-24096.62,-25691.1
+2025-04-01,2025,4,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1510175.19,1487450.97,1392460.05,1510175.19
+2025-04-01,2025,4,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-939411.01,-922693.15,-854153.23,-939411.01
+2025-04-01,2025,4,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-173153.46,-171066.14,-154728.79,-173153.46
+2025-04-01,2025,4,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-51369.78,-52062.76,-48747.72,-51369.78
+2025-04-01,2025,4,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-76686.63,-74372.55,-69633.42,-76686.63
+2025-04-01,2025,4,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-40455.35,-41650.89,-38799.9,-40455.35
+2025-04-01,2025,4,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-17860.93,-17850.38,-17360.71,-17860.93
+2025-04-01,2025,4,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-29497.84,-29750.63,-27752.25,-29497.84
+2025-04-01,2025,4,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1883505.56,1818134.94,1691544.8,1883505.56
+2025-04-01,2025,4,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1305522.89,-1258846.89,-1159693.2,-1305522.89
+2025-04-01,2025,4,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-190497.14,-190873.41,-174196.12,-190497.14
+2025-04-01,2025,4,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-46960.74,-45448.25,-41269.6,-46960.74
+2025-04-01,2025,4,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-83290.72,-81816.07,-76225.44,-83290.72
+2025-04-01,2025,4,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-47404.06,-45446.05,-42482.76,-47404.06
+2025-04-01,2025,4,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-22015.29,-21814.1,-20620.67,-22015.29
+2025-04-01,2025,4,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-35959.54,-36356.84,-33597.62,-35959.54
+2025-04-01,2025,4,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2355532.33,2313900.05,2149936.36,2355532.33
+2025-04-01,2025,4,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-1795874.63,-1767753.0,-1627239.75,-1795874.63
+2025-04-01,2025,4,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-222591.42,-224820.06,-212065.63,-222591.42
+2025-04-01,2025,4,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-55453.0,-56003.85,-51721.25,-55453.0
+2025-04-01,2025,4,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-93434.39,-97183.8,-87541.42,-93434.39
+2025-04-01,2025,4,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-52050.37,-52898.84,-51285.86,-52050.37
+2025-04-01,2025,4,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-26680.7,-26449.42,-25592.35,-26680.7
+2025-04-01,2025,4,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-42942.86,-42319.07,-39896.42,-42942.86
+2025-04-01,2025,4,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1026632.1,1001479.63,928911.28,1026632.1
+2025-04-01,2025,4,Réel,Services,2,Coût des ventes,Charges,Marge brute,-588069.14,-572399.1,-525458.74,-588069.14
+2025-04-01,2025,4,Réel,Services,3,Frais de personnel,Charges,EBITDA,-234010.28,-230708.82,-209661.91,-234010.28
+2025-04-01,2025,4,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-21036.05,-21031.78,-19800.5,-21036.05
+2025-04-01,2025,4,Réel,Services,5,Logistique & transport,Charges,EBITDA,-12057.41,-12017.76,-10966.33,-12057.41
+2025-04-01,2025,4,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-30789.76,-30045.8,-28765.83,-30789.76
+2025-04-01,2025,4,Réel,Services,7,IT & systèmes,Charges,EBITDA,-16521.77,-17169.03,-15885.4,-16521.77
+2025-04-01,2025,4,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-26001.75,-25753.54,-24062.72,-26001.75
+2025-05-01,2025,5,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1527518.32,1487450.97,1361554.98,1527518.32
+2025-05-01,2025,5,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-943772.1,-922693.15,-840495.06,-943772.1
+2025-05-01,2025,5,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-182551.8,-171066.14,-164190.76,-182551.8
+2025-05-01,2025,5,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-53132.38,-52062.76,-47898.63,-53132.38
+2025-05-01,2025,5,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-76816.34,-74372.55,-69706.53,-76816.34
+2025-05-01,2025,5,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-41832.52,-41650.89,-38851.6,-41832.52
+2025-05-01,2025,5,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-18660.86,-17850.38,-16509.35,-18660.86
+2025-05-01,2025,5,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-29464.08,-29750.63,-27756.24,-29464.08
+2025-05-01,2025,5,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1803255.49,1818134.94,1685779.61,1803255.49
+2025-05-01,2025,5,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1242659.22,-1258846.89,-1161386.84,-1242659.22
+2025-05-01,2025,5,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-192666.23,-190873.41,-175020.79,-192666.23
+2025-05-01,2025,5,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-44207.27,-45448.25,-43055.79,-44207.27
+2025-05-01,2025,5,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-77920.65,-81816.07,-76165.93,-77920.65
+2025-05-01,2025,5,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-45543.09,-45446.05,-40117.57,-45543.09
+2025-05-01,2025,5,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-22473.44,-21814.1,-20022.58,-22473.44
+2025-05-01,2025,5,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-36403.96,-36356.84,-34258.34,-36403.96
+2025-05-01,2025,5,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2443070.85,2375772.84,2216946.03,2443070.85
+2025-05-01,2025,5,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-1863423.86,-1809200.25,-1670426.24,-1863423.86
+2025-05-01,2025,5,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-239677.66,-224820.06,-212903.57,-239677.66
+2025-05-01,2025,5,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-57912.46,-56412.21,-51039.71,-57912.46
+2025-05-01,2025,5,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-104546.28,-99782.46,-92369.63,-104546.28
+2025-05-01,2025,5,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-51497.49,-52898.84,-49213.3,-51497.49
+2025-05-01,2025,5,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-26087.74,-26449.42,-24969.59,-26087.74
+2025-05-01,2025,5,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-41856.08,-42319.07,-39956.51,-41856.08
+2025-05-01,2025,5,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1013228.92,981854.54,886905.1,1013228.92
+2025-05-01,2025,5,Réel,Services,2,Coût des ventes,Charges,Marge brute,-576024.77,-561124.2,-503581.65,-576024.77
+2025-05-01,2025,5,Réel,Services,3,Frais de personnel,Charges,EBITDA,-222697.7,-230708.82,-214500.94,-222697.7
+2025-05-01,2025,5,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-21312.97,-20914.03,-18951.83,-21312.97
+2025-05-01,2025,5,Réel,Services,5,Logistique & transport,Charges,EBITDA,-11908.23,-11782.25,-10588.81,-11908.23
+2025-05-01,2025,5,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-30169.13,-30045.8,-27572.28,-30169.13
+2025-05-01,2025,5,Réel,Services,7,IT & systèmes,Charges,EBITDA,-17635.57,-17169.03,-16909.96,-17635.57
+2025-05-01,2025,5,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-26036.12,-25753.54,-24058.68,-26036.12
+2025-06-01,2025,6,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1613850.63,1561740.26,1407649.54,1613850.63
+2025-06-01,2025,6,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-1001941.7,-968783.35,-870206.01,-1001941.7
+2025-06-01,2025,6,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-167931.36,-171066.14,-158089.98,-167931.36
+2025-06-01,2025,6,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-53419.15,-52842.8,-46692.85,-53419.15
+2025-06-01,2025,6,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-79214.01,-78087.01,-68133.69,-79214.01
+2025-06-01,2025,6,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-42141.2,-41650.89,-39127.21,-42141.2
+2025-06-01,2025,6,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-17617.81,-17850.38,-16793.99,-17617.81
+2025-06-01,2025,6,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-30143.11,-29750.63,-28087.01,-30143.11
+2025-06-01,2025,6,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1957464.53,1908181.63,1749111.84,1957464.53
+2025-06-01,2025,6,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1363436.75,-1321179.59,-1209030.5,-1363436.75
+2025-06-01,2025,6,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-197924.86,-190873.41,-170832.95,-197924.86
+2025-06-01,2025,6,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-46299.54,-46123.6,-43487.16,-46299.54
+2025-06-01,2025,6,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-88098.7,-85868.17,-78501.29,-88098.7
+2025-06-01,2025,6,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-45380.27,-45446.05,-41917.15,-45380.27
+2025-06-01,2025,6,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-22205.08,-21814.1,-19682.59,-22205.08
+2025-06-01,2025,6,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-36760.91,-36356.84,-33856.92,-36760.91
+2025-06-01,2025,6,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2535231.51,2540460.37,2306943.03,2535231.51
+2025-06-01,2025,6,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-1929492.25,-1929778.5,-1746910.85,-1929492.25
+2025-06-01,2025,6,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-228066.46,-224820.06,-214855.54,-228066.46
+2025-06-01,2025,6,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-56696.78,-57499.14,-52556.59,-56696.78
+2025-06-01,2025,6,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-111155.09,-106699.34,-95317.36,-111155.09
+2025-06-01,2025,6,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-51609.97,-52898.84,-48587.17,-51609.97
+2025-06-01,2025,6,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-26907.29,-26449.42,-24603.85,-26907.29
+2025-06-01,2025,6,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-42431.93,-42319.07,-39289.2,-42431.93
+2025-06-01,2025,6,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1063278.91,1013007.08,952549.18,1063278.91
+2025-06-01,2025,6,Réel,Services,2,Coût des ventes,Charges,Marge brute,-606894.57,-579984.6,-544707.26,-606894.57
+2025-06-01,2025,6,Réel,Services,3,Frais de personnel,Charges,EBITDA,-242218.7,-230708.82,-210759.0,-242218.7
+2025-06-01,2025,6,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-21245.28,-21100.94,-19335.94,-21245.28
+2025-06-01,2025,6,Réel,Services,5,Logistique & transport,Charges,EBITDA,-12432.28,-12156.08,-11418.56,-12432.28
+2025-06-01,2025,6,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-29316.26,-30045.8,-28959.56,-29316.26
+2025-06-01,2025,6,Réel,Services,7,IT & systèmes,Charges,EBITDA,-17155.76,-17169.03,-16081.32,-17155.76
+2025-06-01,2025,6,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-25362.71,-25753.54,-24149.74,-25362.71
+2025-07-01,2025,7,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1424154.84,1413320.82,1277886.75,1424154.84
+2025-07-01,2025,7,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-882952.51,-876725.79,-792760.49,-882952.51
+2025-07-01,2025,7,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-173753.8,-171066.14,-155940.93,-173753.8
+2025-07-01,2025,7,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-50822.97,-51284.39,-46538.61,-50822.97
+2025-07-01,2025,7,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-74103.71,-70666.04,-63852.26,-74103.71
+2025-07-01,2025,7,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-41079.25,-41650.89,-40244.68,-41079.25
+2025-07-01,2025,7,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-18118.46,-17850.38,-16529.22,-18118.46
+2025-07-01,2025,7,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-29996.48,-29750.63,-27941.94,-29996.48
+2025-07-01,2025,7,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1803282.4,1726875.43,1606201.29,1803282.4
+2025-07-01,2025,7,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1242562.69,-1195647.35,-1111495.37,-1242562.69
+2025-07-01,2025,7,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-190281.55,-190873.41,-176736.98,-190281.55
+2025-07-01,2025,7,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-44064.88,-44763.8,-42090.55,-44064.88
+2025-07-01,2025,7,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-78348.82,-77709.39,-72458.27,-78348.82
+2025-07-01,2025,7,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-45295.23,-45446.05,-41152.4,-45295.23
+2025-07-01,2025,7,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-21888.45,-21814.1,-20697.89,-21888.45
+2025-07-01,2025,7,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-35992.54,-36356.84,-33980.22,-35992.54
+2025-07-01,2025,7,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2412059.24,2382182.53,2161447.21,2412059.24
+2025-07-01,2025,7,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-1832965.89,-1809219.75,-1636648.85,-1832965.89
+2025-07-01,2025,7,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-226251.85,-224820.06,-204798.15,-226251.85
+2025-07-01,2025,7,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-56642.15,-56454.51,-51628.13,-56642.15
+2025-07-01,2025,7,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-97464.96,-100051.67,-87601.4,-97464.96
+2025-07-01,2025,7,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-55163.5,-52898.84,-47816.57,-55163.5
+2025-07-01,2025,7,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-26276.04,-26449.42,-24161.57,-26276.04
+2025-07-01,2025,7,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-42852.39,-42319.07,-39008.14,-42852.39
+2025-07-01,2025,7,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,929970.79,938127.43,856645.95,929970.79
+2025-07-01,2025,7,Réel,Services,2,Coût des ventes,Charges,Marge brute,-532342.63,-537747.6,-489312.29,-532342.63
+2025-07-01,2025,7,Réel,Services,3,Frais de personnel,Charges,EBITDA,-232065.06,-230708.82,-214464.84,-232065.06
+2025-07-01,2025,7,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-20745.61,-20651.66,-19347.24,-20745.61
+2025-07-01,2025,7,Réel,Services,5,Logistique & transport,Charges,EBITDA,-10975.17,-11257.53,-10257.36,-10975.17
+2025-07-01,2025,7,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-29276.02,-30045.8,-27661.51,-29276.02
+2025-07-01,2025,7,Réel,Services,7,IT & systèmes,Charges,EBITDA,-17156.06,-17169.03,-15379.32,-17156.06
+2025-07-01,2025,7,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-25821.66,-25753.54,-24181.16,-25821.66
+2025-08-01,2025,8,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1055462.96,1041183.3,963877.6,1055462.96
+2025-08-01,2025,8,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-660110.36,-645866.28,-594784.5,-660110.36
+2025-08-01,2025,8,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-178616.56,-171066.14,-158040.85,-178616.56
+2025-08-01,2025,8,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-48496.95,-47376.95,-44035.52,-48496.95
+2025-08-01,2025,8,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-54188.98,-52059.17,-48100.01,-54188.98
+2025-08-01,2025,8,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-40835.68,-41650.89,-39128.15,-40835.68
+2025-08-01,2025,8,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-18216.12,-17850.38,-16441.25,-18216.12
+2025-08-01,2025,8,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-30125.36,-29750.63,-28024.17,-30125.36
+2025-08-01,2025,8,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1270552.29,1272219.79,1182954.71,1270552.29
+2025-08-01,2025,8,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-883586.95,-880863.74,-810205.07,-883586.95
+2025-08-01,2025,8,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-190682.61,-190873.41,-182635.85,-190682.61
+2025-08-01,2025,8,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-43053.07,-41353.88,-36901.59,-43053.07
+2025-08-01,2025,8,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-55987.69,-57249.89,-52673.97,-55987.69
+2025-08-01,2025,8,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-46068.42,-45446.05,-42050.15,-46068.42
+2025-08-01,2025,8,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-22069.82,-21814.1,-19906.23,-22069.82
+2025-08-01,2025,8,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-36011.86,-36356.84,-34326.94,-36011.86
+2025-08-01,2025,8,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,1649986.77,1660899.59,1517775.3,1649986.77
+2025-08-01,2025,8,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-1258089.94,-1265511.0,-1149859.58,-1258089.94
+2025-08-01,2025,8,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-231094.97,-224820.06,-207374.87,-231094.97
+2025-08-01,2025,8,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-52929.23,-51694.04,-49119.3,-52929.23
+2025-08-01,2025,8,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-68429.18,-69757.78,-62702.58,-68429.18
+2025-08-01,2025,8,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-53519.52,-52898.84,-50581.32,-53519.52
+2025-08-01,2025,8,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-26319.11,-26449.42,-24354.29,-26319.11
+2025-08-01,2025,8,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-41845.56,-42319.07,-39307.85,-41845.56
+2025-08-01,2025,8,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,769659.97,751430.77,690655.88,769659.97
+2025-08-01,2025,8,Réel,Services,2,Coût des ventes,Charges,Marge brute,-439131.01,-427759.8,-387219.14,-439131.01
+2025-08-01,2025,8,Réel,Services,3,Frais de personnel,Charges,EBITDA,-222191.61,-230708.82,-216572.85,-222191.61
+2025-08-01,2025,8,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-19738.61,-19531.48,-17890.86,-19738.61
+2025-08-01,2025,8,Réel,Services,5,Logistique & transport,Charges,EBITDA,-9248.17,-9017.17,-8314.54,-9248.17
+2025-08-01,2025,8,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-29344.28,-30045.8,-27094.73,-29344.28
+2025-08-01,2025,8,Réel,Services,7,IT & systèmes,Charges,EBITDA,-17422.7,-17169.03,-16356.53,-17422.7
+2025-08-01,2025,8,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-26081.94,-25753.54,-24304.6,-26081.94
+2025-09-01,2025,9,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1682586.37,1636370.56,1524438.3,1682586.37
+2025-09-01,2025,9,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-1044735.36,-1015081.24,-934819.82,-1044735.36
+2025-09-01,2025,9,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-169211.87,-171066.14,-162807.61,-169211.87
+2025-09-01,2025,9,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-55630.99,-53626.42,-49172.26,-55630.99
+2025-09-01,2025,9,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-84359.03,-81818.53,-77029.89,-84359.03
+2025-09-01,2025,9,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-42289.4,-41650.89,-39500.4,-42289.4
+2025-09-01,2025,9,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-17937.51,-17850.38,-16533.52,-17937.51
+2025-09-01,2025,9,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-29703.89,-29750.63,-27682.04,-29703.89
+2025-09-01,2025,9,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,2107938.03,2000147.58,1859605.99,2107938.03
+2025-09-01,2025,9,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1459401.31,-1384868.54,-1281706.87,-1459401.31
+2025-09-01,2025,9,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-190661.38,-190873.41,-186697.88,-190661.38
+2025-09-01,2025,9,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-47459.22,-46813.34,-42627.2,-47459.22
+2025-09-01,2025,9,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-94810.5,-90006.64,-82123.93,-94810.5
+2025-09-01,2025,9,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-45742.59,-45446.05,-42461.46,-45742.59
+2025-09-01,2025,9,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-20746.52,-21814.1,-20652.71,-20746.52
+2025-09-01,2025,9,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-36847.52,-36356.84,-33552.32,-36847.52
+2025-09-01,2025,9,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2814590.8,2718139.27,2493514.19,2814590.8
+2025-09-01,2025,9,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-2145807.49,-2084774.25,-1901194.36,-2145807.49
+2025-09-01,2025,9,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-220083.71,-224820.06,-209786.36,-220083.71
+2025-09-01,2025,9,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-59385.92,-58671.82,-55126.31,-59385.92
+2025-09-01,2025,9,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-114666.21,-114161.85,-107495.07,-114666.21
+2025-09-01,2025,9,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-53407.95,-52898.84,-48458.91,-53407.95
+2025-09-01,2025,9,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-26245.03,-26449.42,-24337.57,-26245.03
+2025-09-01,2025,9,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-42312.48,-42319.07,-39821.0,-42312.48
+2025-09-01,2025,9,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1220596.8,1226121.03,1147722.32,1220596.8
+2025-09-01,2025,9,Réel,Services,2,Coût des ventes,Charges,Marge brute,-684662.92,-692585.4,-644051.37,-684662.92
+2025-09-01,2025,9,Réel,Services,3,Frais de personnel,Charges,EBITDA,-228822.98,-230708.82,-224226.52,-228822.98
+2025-09-01,2025,9,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-22441.96,-22379.63,-20752.69,-22441.96
+2025-09-01,2025,9,Réel,Services,5,Logistique & transport,Charges,EBITDA,-14337.91,-14713.45,-13831.41,-14337.91
+2025-09-01,2025,9,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-30126.72,-30045.8,-28634.54,-30126.72
+2025-09-01,2025,9,Réel,Services,7,IT & systèmes,Charges,EBITDA,-17587.82,-17169.03,-16317.65,-17587.82
+2025-09-01,2025,9,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-25636.68,-25753.54,-24249.41,-25636.68
+2025-10-01,2025,10,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1667443.93,1636370.56,1523649.38,1667443.93
+2025-10-01,2025,10,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-1032842.41,-1015081.24,-943880.62,-1032842.41
+2025-10-01,2025,10,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-168173.19,-171066.14,-158333.21,-168173.19
+2025-10-01,2025,10,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-53056.4,-53626.42,-49731.83,-53056.4
+2025-10-01,2025,10,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-80599.37,-81818.53,-77445.02,-80599.37
+2025-10-01,2025,10,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-42027.06,-41650.89,-37813.16,-42027.06
+2025-10-01,2025,10,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-17263.37,-17850.38,-16642.28,-17263.37
+2025-10-01,2025,10,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-29650.63,-29750.63,-27788.03,-29650.63
+2025-10-01,2025,10,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,2027621.07,2000147.58,1834604.49,2027621.07
+2025-10-01,2025,10,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1404662.29,-1384868.54,-1261678.7,-1404662.29
+2025-10-01,2025,10,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-199276.15,-190873.41,-172773.83,-199276.15
+2025-10-01,2025,10,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-47644.41,-46813.34,-44922.87,-47644.41
+2025-10-01,2025,10,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-91689.56,-90006.64,-83735.53,-91689.56
+2025-10-01,2025,10,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-45629.48,-45446.05,-43109.71,-45629.48
+2025-10-01,2025,10,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-21332.2,-21814.1,-20336.11,-21332.2
+2025-10-01,2025,10,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-35832.23,-36356.84,-33902.48,-35832.23
+2025-10-01,2025,10,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,3193379.03,3230836.56,2940738.67,3193379.03
+2025-10-01,2025,10,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-2449712.35,-2481657.75,-2248349.86,-2449712.35
+2025-10-01,2025,10,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-220183.47,-224820.06,-208816.43,-220183.47
+2025-10-01,2025,10,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-61212.93,-62055.63,-58325.77,-61212.93
+2025-10-01,2025,10,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-136712.66,-135695.14,-125791.82,-136712.66
+2025-10-01,2025,10,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-54555.3,-52898.84,-49579.08,-54555.3
+2025-10-01,2025,10,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-26254.04,-26449.42,-24937.34,-26254.04
+2025-10-01,2025,10,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-41911.8,-42319.07,-38847.15,-41911.8
+2025-10-01,2025,10,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1198332.4,1169180.0,1106434.15,1198332.4
+2025-10-01,2025,10,Réel,Services,2,Coût des ventes,Charges,Marge brute,-685353.43,-665273.7,-623201.28,-685353.43
+2025-10-01,2025,10,Réel,Services,3,Frais de personnel,Charges,EBITDA,-227656.44,-230708.82,-214458.84,-227656.44
+2025-10-01,2025,10,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-22336.35,-22037.98,-19626.5,-22336.35
+2025-10-01,2025,10,Réel,Services,5,Logistique & transport,Charges,EBITDA,-14064.69,-14030.16,-13036.18,-14064.69
+2025-10-01,2025,10,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-30221.36,-30045.8,-28349.88,-30221.36
+2025-10-01,2025,10,Réel,Services,7,IT & systèmes,Charges,EBITDA,-17740.8,-17169.03,-15515.83,-17740.8
+2025-10-01,2025,10,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-25714.13,-25753.54,-24052.3,-25714.13
+2025-11-01,2025,11,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1665536.0,1636370.56,1540752.46,1665536.0
+2025-11-01,2025,11,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-1032247.39,-1015081.24,-953341.33,-1032247.39
+2025-11-01,2025,11,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-172882.22,-171066.14,-159525.32,-172882.22
+2025-11-01,2025,11,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-55386.93,-53626.42,-49305.39,-55386.93
+2025-11-01,2025,11,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-81461.53,-81818.53,-75843.47,-81461.53
+2025-11-01,2025,11,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-41833.98,-41650.89,-38665.34,-41833.98
+2025-11-01,2025,11,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-18687.88,-17850.38,-16556.61,-18687.88
+2025-11-01,2025,11,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-29699.8,-29750.63,-27821.38,-29699.8
+2025-11-01,2025,11,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,2009747.04,2000147.58,1790316.99,2009747.04
+2025-11-01,2025,11,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1390239.74,-1384868.54,-1233514.55,-1390239.74
+2025-11-01,2025,11,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-193460.43,-190873.41,-180852.84,-193460.43
+2025-11-01,2025,11,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-45930.05,-46813.34,-43954.83,-45930.05
+2025-11-01,2025,11,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-87001.34,-90006.64,-80766.17,-87001.34
+2025-11-01,2025,11,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-43670.97,-45446.05,-43103.38,-43670.97
+2025-11-01,2025,11,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-22256.98,-21814.1,-20388.62,-22256.98
+2025-11-01,2025,11,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-36626.31,-36356.84,-34372.72,-36626.31
+2025-11-01,2025,11,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,3536415.13,3403377.81,3142519.17,3536415.13
+2025-11-01,2025,11,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-2714258.4,-2615661.75,-2421282.18,-2714258.4
+2025-11-01,2025,11,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-224093.66,-224820.06,-211125.35,-224093.66
+2025-11-01,2025,11,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-63064.78,-63194.4,-59845.46,-63064.78
+2025-11-01,2025,11,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-149184.57,-142941.87,-129510.21,-149184.57
+2025-11-01,2025,11,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-54030.35,-52898.84,-47933.54,-54030.35
+2025-11-01,2025,11,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-26810.19,-26449.42,-24231.24,-26810.19
+2025-11-01,2025,11,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-43009.27,-42319.07,-39080.74,-43009.27
+2025-11-01,2025,11,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1192807.32,1166669.21,1022537.07,1192807.32
+2025-11-01,2025,11,Réel,Services,2,Coût des ventes,Charges,Marge brute,-684293.77,-665256.15,-580845.46,-684293.77
+2025-11-01,2025,11,Réel,Services,3,Frais de personnel,Charges,EBITDA,-223359.2,-230708.82,-214370.35,-223359.2
+2025-11-01,2025,11,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-22094.82,-22022.91,-20208.18,-22094.82
+2025-11-01,2025,11,Réel,Services,5,Logistique & transport,Charges,EBITDA,-14160.83,-14000.03,-12626.33,-14160.83
+2025-11-01,2025,11,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-29661.19,-30045.8,-27743.19,-29661.19
+2025-11-01,2025,11,Réel,Services,7,IT & systèmes,Charges,EBITDA,-16851.69,-17169.03,-16597.94,-16851.69
+2025-11-01,2025,11,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-25713.44,-25753.54,-23803.13,-25713.44
+2025-12-01,2025,12,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1561746.39,1561740.26,1428173.02,1561746.39
+2025-12-01,2025,12,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-966791.98,-968783.35,-883910.48,-966791.98
+2025-12-01,2025,12,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-167411.79,-171066.14,-156944.49,-167411.79
+2025-12-01,2025,12,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-54972.79,-52842.8,-48888.98,-54972.79
+2025-12-01,2025,12,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-78240.64,-78087.01,-76138.28,-78240.64
+2025-12-01,2025,12,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-40897.97,-41650.89,-37731.85,-40897.97
+2025-12-01,2025,12,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-18179.44,-17850.38,-16283.56,-18179.44
+2025-12-01,2025,12,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-29372.2,-29750.63,-27510.68,-29372.2
+2025-12-01,2025,12,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1924623.48,1908181.63,1800280.96,1924623.48
+2025-12-01,2025,12,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1330226.61,-1321179.59,-1239375.42,-1330226.61
+2025-12-01,2025,12,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-192575.04,-190873.41,-170261.61,-192575.04
+2025-12-01,2025,12,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-46150.52,-46123.6,-40757.43,-46150.52
+2025-12-01,2025,12,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-86701.66,-85868.17,-84598.83,-86701.66
+2025-12-01,2025,12,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-44915.53,-45446.05,-42776.56,-44915.53
+2025-12-01,2025,12,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-22063.06,-21814.1,-21034.3,-22063.06
+2025-12-01,2025,12,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-35945.83,-36356.84,-33641.65,-35945.83
+2025-12-01,2025,12,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,3486017.18,3435137.16,3120714.4,3486017.18
+2025-12-01,2025,12,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-2668100.92,-2639432.25,-2380340.59,-2668100.92
+2025-12-01,2025,12,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-238810.88,-224820.06,-210912.61,-238810.88
+2025-12-01,2025,12,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-63536.28,-63404.01,-59680.2,-63536.28
+2025-12-01,2025,12,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-145409.47,-144275.76,-129939.05,-145409.47
+2025-12-01,2025,12,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-54056.11,-52898.84,-50477.98,-54056.11
+2025-12-01,2025,12,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-25337.88,-26449.42,-24525.36,-25337.88
+2025-12-01,2025,12,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-41862.36,-42319.07,-39834.12,-41862.36
+2025-12-01,2025,12,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1193922.72,1142435.87,1076382.2,1193922.72
+2025-12-01,2025,12,Réel,Services,2,Coût des ventes,Charges,Marge brute,-680264.23,-651705.6,-613581.63,-680264.23
+2025-12-01,2025,12,Réel,Services,3,Frais de personnel,Charges,EBITDA,-227625.43,-230708.82,-210531.13,-227625.43
+2025-12-01,2025,12,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-22224.49,-21877.51,-20022.98,-22224.49
+2025-12-01,2025,12,Réel,Services,5,Logistique & transport,Charges,EBITDA,-14666.01,-13709.23,-13001.0,-14666.01
+2025-12-01,2025,12,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-29579.62,-30045.8,-27666.05,-29579.62
+2025-12-01,2025,12,Réel,Services,7,IT & systèmes,Charges,EBITDA,-17763.3,-17169.03,-15472.89,-17763.3
+2025-12-01,2025,12,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-25932.21,-25753.54,-24013.26,-25932.21
+2026-01-01,2026,1,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1505759.72,1525279.15,1439908.69,1505759.72
+2026-01-01,2026,1,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-945184.56,-951020.0,-890926.4,-945184.56
+2026-01-01,2026,1,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-187209.8,-184619.92,-172683.18,-187209.8
+2026-01-01,2026,1,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-55436.47,-55347.5,-52375.23,-55436.47
+2026-01-01,2026,1,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-83328.09,-76263.96,-70625.17,-83328.09
+2026-01-01,2026,1,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-44980.69,-44950.94,-41314.59,-44980.69
+2026-01-01,2026,1,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-20800.28,-19264.69,-17384.64,-20800.28
+2026-01-01,2026,1,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-32158.99,-32107.81,-29809.79,-32158.99
+2026-01-01,2026,1,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1898171.38,1863801.88,1698950.99,1898171.38
+2026-01-01,2026,1,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1358033.04,-1297059.0,-1183709.99,-1358033.04
+2026-01-01,2026,1,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-202648.42,-206023.91,-180454.5,-202648.42
+2026-01-01,2026,1,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-48031.92,-48315.83,-45188.77,-48031.92
+2026-01-01,2026,1,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-95668.63,-83871.08,-77112.24,-95668.63
+2026-01-01,2026,1,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-48683.42,-49053.31,-46175.16,-48683.42
+2026-01-01,2026,1,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-23772.71,-23545.59,-21821.76,-23772.71
+2026-01-01,2026,1,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-39271.11,-39242.65,-35984.99,-39271.11
+2026-01-01,2026,1,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2924777.37,2927186.0,2775467.89,2924777.37
+2026-01-01,2026,1,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-2283594.21,-2261590.0,-2139350.97,-2283594.21
+2026-01-01,2026,1,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-237052.82,-242668.43,-227519.42,-237052.82
+2026-01-01,2026,1,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-63922.16,-63285.24,-60860.91,-63922.16
+2026-01-01,2026,1,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-136072.18,-122941.81,-120396.32,-136072.18
+2026-01-01,2026,1,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-57161.69,-57098.45,-54988.34,-57161.69
+2026-01-01,2026,1,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-29848.52,-28549.23,-26193.6,-29848.52
+2026-01-01,2026,1,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-45805.91,-45678.76,-41810.93,-45805.91
+2026-01-01,2026,1,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1550361.65,1402014.3,1340567.9,1550361.65
+2026-01-01,2026,1,Réel,Services,2,Coût des ventes,Charges,Marge brute,-886388.89,-790502.0,-754824.39,-886388.89
+2026-01-01,2026,1,Réel,Services,3,Frais de personnel,Charges,EBITDA,-240772.32,-249094.41,-238784.91,-240772.32
+2026-01-01,2026,1,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-25860.29,-24632.19,-23061.06,-25860.29
+2026-01-01,2026,1,Réel,Services,5,Logistique & transport,Charges,EBITDA,-20830.83,-16824.17,-15990.61,-20830.83
+2026-01-01,2026,1,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-33330.16,-32440.2,-28904.62,-33330.16
+2026-01-01,2026,1,Réel,Services,7,IT & systèmes,Charges,EBITDA,-19024.4,-18537.26,-16499.82,-19024.4
+2026-01-01,2026,1,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-27993.69,-27805.89,-25572.31,-27993.69
+2026-02-01,2026,2,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1494797.39,1525279.15,1398336.46,1494797.39
+2026-02-01,2026,2,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-945119.54,-951020.0,-872306.5,-945119.54
+2026-02-01,2026,2,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-178736.65,-184619.92,-167329.59,-178736.65
+2026-02-01,2026,2,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-57368.62,-55347.5,-50284.17,-57368.62
+2026-02-01,2026,2,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-82233.11,-76263.96,-71035.73,-82233.11
+2026-02-01,2026,2,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-46945.55,-44950.94,-42661.62,-46945.55
+2026-02-01,2026,2,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-19902.93,-19264.69,-17373.41,-19902.93
+2026-02-01,2026,2,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-32142.71,-32107.81,-29777.42,-32142.71
+2026-02-01,2026,2,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1857561.61,1863801.88,1744157.42,1857561.61
+2026-02-01,2026,2,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1329760.05,-1297059.0,-1208273.15,-1329760.05
+2026-02-01,2026,2,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-196157.7,-206023.91,-187801.78,-196157.7
+2026-02-01,2026,2,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-50692.53,-48315.83,-46361.45,-50692.53
+2026-02-01,2026,2,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-92892.32,-83871.08,-79875.17,-92892.32
+2026-02-01,2026,2,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-49439.98,-49053.31,-43986.91,-49439.98
+2026-02-01,2026,2,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-23899.95,-23545.59,-21597.86,-23899.95
+2026-02-01,2026,2,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-39147.07,-39242.65,-36759.03,-39147.07
+2026-02-01,2026,2,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2766210.27,2747079.5,2574112.62,2766210.27
+2026-02-01,2026,2,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-2175622.11,-2121030.0,-1974290.62,-2175622.11
+2026-02-01,2026,2,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-235385.87,-242668.43,-220031.75,-235385.87
+2026-02-01,2026,2,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-65257.93,-62096.53,-59630.0,-65257.93
+2026-02-01,2026,2,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-132609.86,-115377.34,-109368.69,-132609.86
+2026-02-01,2026,2,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-56851.08,-57098.45,-52707.13,-56851.08
+2026-02-01,2026,2,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-30144.32,-28549.23,-26820.67,-30144.32
+2026-02-01,2026,2,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-45618.07,-45678.76,-42640.74,-45618.07
+2026-02-01,2026,2,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1300039.76,1196091.9,1124394.85,1300039.76
+2026-02-01,2026,2,Réel,Services,2,Coût des ventes,Charges,Marge brute,-754985.92,-683306.0,-642148.19,-754985.92
+2026-02-01,2026,2,Réel,Services,3,Frais de personnel,Charges,EBITDA,-243788.84,-249094.41,-227897.71,-243788.84
+2026-02-01,2026,2,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-24148.01,-23396.65,-22238.51,-24148.01
+2026-02-01,2026,2,Réel,Services,5,Logistique & transport,Charges,EBITDA,-17476.38,-14353.1,-14091.33,-17476.38
+2026-02-01,2026,2,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-33021.9,-32440.2,-30432.15,-33021.9
+2026-02-01,2026,2,Réel,Services,7,IT & systèmes,Charges,EBITDA,-19033.11,-18537.26,-17331.68,-19033.11
+2026-02-01,2026,2,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-27755.8,-27805.89,-25660.81,-27755.8
+2026-03-01,2026,3,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1636957.93,1685264.52,1632613.71,1636957.93
+2026-03-01,2026,3,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-1033594.25,-1050754.0,-1008121.48,-1033594.25
+2026-03-01,2026,3,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-177237.9,-184619.92,-168833.95,-177237.9
+2026-03-01,2026,3,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-59662.87,-57027.35,-53699.89,-59662.87
+2026-03-01,2026,3,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-91819.42,-84263.23,-82746.21,-91819.42
+2026-03-01,2026,3,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-47408.42,-44950.94,-41559.17,-47408.42
+2026-03-01,2026,3,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-20115.13,-19264.69,-17749.97,-20115.13
+2026-03-01,2026,3,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-32104.59,-32107.81,-30196.6,-32104.59
+2026-03-01,2026,3,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,2061471.51,2060212.04,1938383.16,2061471.51
+2026-03-01,2026,3,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1483724.49,-1433775.0,-1347304.1,-1483724.49
+2026-03-01,2026,3,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-195926.96,-206023.91,-197701.77,-195926.96
+2026-03-01,2026,3,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-51086.81,-49788.91,-46739.03,-51086.81
+2026-03-01,2026,3,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-103027.67,-92709.54,-85525.38,-103027.67
+2026-03-01,2026,3,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-50003.59,-49053.31,-43352.36,-50003.59
+2026-03-01,2026,3,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-24502.64,-23545.59,-21532.54,-24502.64
+2026-03-01,2026,3,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-39074.9,-39242.65,-36032.16,-39074.9
+2026-03-01,2026,3,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2593253.47,2597304.5,2387361.03,2593253.47
+2026-03-01,2026,3,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-2041346.15,-2000430.0,-1834263.73,-2041346.15
+2026-03-01,2026,3,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-239827.85,-242668.43,-222087.42,-239827.85
+2026-03-01,2026,3,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-63481.83,-61108.02,-55626.03,-63481.83
+2026-03-01,2026,3,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-120440.68,-109086.79,-95895.2,-120440.68
+2026-03-01,2026,3,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-58036.17,-57098.45,-52450.01,-58036.17
+2026-03-01,2026,3,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-30205.49,-28549.23,-26345.0,-30205.49
+2026-03-01,2026,3,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-45441.32,-45678.76,-42776.03,-45441.32
+2026-03-01,2026,3,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1221618.34,1161163.2,1100631.9,1221618.34
+2026-03-01,2026,3,Réel,Services,2,Coût des ventes,Charges,Marge brute,-711428.66,-667028.0,-626461.6,-711428.66
+2026-03-01,2026,3,Réel,Services,3,Frais de personnel,Charges,EBITDA,-241252.02,-249094.41,-228396.48,-241252.02
+2026-03-01,2026,3,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-25113.23,-23187.08,-22184.88,-25113.23
+2026-03-01,2026,3,Réel,Services,5,Logistique & transport,Charges,EBITDA,-16140.64,-13933.96,-13205.16,-16140.64
+2026-03-01,2026,3,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-32112.18,-32440.2,-30110.31,-32112.18
+2026-03-01,2026,3,Réel,Services,7,IT & systèmes,Charges,EBITDA,-19436.93,-18537.26,-17475.27,-19436.93
+2026-03-01,2026,3,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-27881.45,-27805.89,-25691.1,-27881.45
+2026-04-01,2026,4,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1539174.71,1605701.8,1510175.19,1539174.71
+2026-04-01,2026,4,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-965998.31,-1001162.0,-939411.01,-965998.31
+2026-04-01,2026,4,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-182626.55,-184619.92,-173153.46,-182626.55
+2026-04-01,2026,4,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-57053.75,-56191.94,-51369.78,-57053.75
+2026-04-01,2026,4,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-85441.44,-80285.09,-76686.63,-85441.44
+2026-04-01,2026,4,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-43692.71,-44950.94,-40455.35,-43692.71
+2026-04-01,2026,4,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-19899.25,-19264.69,-17860.93,-19899.25
+2026-04-01,2026,4,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-31991.55,-32107.81,-29497.84,-31991.55
+2026-04-01,2026,4,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,2013885.54,1962094.62,1883505.56,2013885.54
+2026-04-01,2026,4,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1445397.84,-1365498.0,-1305522.89,-1445397.84
+2026-04-01,2026,4,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-198281.23,-206023.91,-190497.14,-198281.23
+2026-04-01,2026,4,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-51210.28,-49053.03,-46960.74,-51210.28
+2026-04-01,2026,4,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-101181.28,-88294.26,-83290.72,-101181.28
+2026-04-01,2026,4,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-47338.67,-49053.31,-47404.06,-47338.67
+2026-04-01,2026,4,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-24547.33,-23545.59,-22015.29,-24547.33
+2026-04-01,2026,4,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-39189.15,-39242.65,-35959.54,-39189.15
+2026-04-01,2026,4,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2557042.27,2499805.5,2355532.33,2557042.27
+2026-04-01,2026,4,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-2015438.69,-1919740.0,-1795874.63,-2015438.69
+2026-04-01,2026,4,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-229724.88,-242668.43,-222591.42,-229724.88
+2026-04-01,2026,4,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-62769.15,-60464.53,-55453.0,-62769.15
+2026-04-01,2026,4,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-119451.27,-104991.83,-93434.39,-119451.27
+2026-04-01,2026,4,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-57066.92,-57098.45,-52050.37,-57066.92
+2026-04-01,2026,4,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-30242.94,-28549.23,-26680.7,-30242.94
+2026-04-01,2026,4,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-45880.47,-45678.76,-42942.86,-45880.47
+2026-04-01,2026,4,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1153214.18,1079631.6,1026632.1,1153214.18
+2026-04-01,2026,4,Réel,Services,2,Coût des ventes,Charges,Marge brute,-675035.39,-620164.0,-588069.14,-675035.39
+2026-04-01,2026,4,Réel,Services,3,Frais de personnel,Charges,EBITDA,-237608.59,-249094.41,-234010.28,-237608.59
+2026-04-01,2026,4,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-23843.55,-22697.89,-21036.05,-23843.55
+2026-04-01,2026,4,Réel,Services,5,Logistique & transport,Charges,EBITDA,-14599.58,-12955.58,-12057.41,-14599.58
+2026-04-01,2026,4,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-33603.67,-32440.2,-30789.76,-33603.67
+2026-04-01,2026,4,Réel,Services,7,IT & systèmes,Charges,EBITDA,-18887.24,-18537.26,-16521.77,-18887.24
+2026-04-01,2026,4,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-27847.07,-27805.89,-26001.75,-27847.07
+2026-05-01,2026,5,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1542798.33,1605701.8,1527518.32,1542798.33
+2026-05-01,2026,5,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-971926.0,-1001162.0,-943772.1,-971926.0
+2026-05-01,2026,5,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-175461.98,-184619.92,-182551.8,-175461.98
+2026-05-01,2026,5,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-57439.81,-56191.94,-53132.38,-57439.81
+2026-05-01,2026,5,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-83765.37,-80285.09,-76816.34,-83765.37
+2026-05-01,2026,5,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-44470.16,-44950.94,-41832.52,-44470.16
+2026-05-01,2026,5,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-19841.2,-19264.69,-18660.86,-19841.2
+2026-05-01,2026,5,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-32019.38,-32107.81,-29464.08,-32019.38
+2026-05-01,2026,5,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1928578.29,1962094.62,1803255.49,1928578.29
+2026-05-01,2026,5,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1384099.59,-1365498.0,-1242659.22,-1384099.59
+2026-05-01,2026,5,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-199004.4,-206023.91,-192666.23,-199004.4
+2026-05-01,2026,5,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-51916.31,-49053.03,-44207.27,-51916.31
+2026-05-01,2026,5,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-93723.42,-88294.26,-77920.65,-93723.42
+2026-05-01,2026,5,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-50190.47,-49053.31,-45543.09,-50190.47
+2026-05-01,2026,5,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-23784.4,-23545.59,-22473.44,-23784.4
+2026-05-01,2026,5,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-39312.02,-39242.65,-36403.96,-39312.02
+2026-05-01,2026,5,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2617934.82,2570547.5,2443070.85,2617934.82
+2026-05-01,2026,5,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-2067439.61,-1967830.0,-1863423.86,-2067439.61
+2026-05-01,2026,5,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-233290.48,-242668.43,-239677.66,-233290.48
+2026-05-01,2026,5,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-63195.86,-60931.42,-57912.46,-63195.86
+2026-05-01,2026,5,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-121654.72,-107962.99,-104546.28,-121654.72
+2026-05-01,2026,5,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-57185.61,-57098.45,-51497.49,-57185.61
+2026-05-01,2026,5,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-30549.01,-28549.23,-26087.74,-30549.01
+2026-05-01,2026,5,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-45817.04,-45678.76,-41856.08,-45817.04
+2026-05-01,2026,5,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1145403.76,1059003.3,1013228.92,1145403.76
+2026-05-01,2026,5,Réel,Services,2,Coût des ventes,Charges,Marge brute,-668082.8,-608246.0,-576024.77,-668082.8
+2026-05-01,2026,5,Réel,Services,3,Frais de personnel,Charges,EBITDA,-229245.12,-249094.41,-222697.7,-229245.12
+2026-05-01,2026,5,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-23706.6,-22574.12,-21312.97,-23706.6
+2026-05-01,2026,5,Réel,Services,5,Logistique & transport,Charges,EBITDA,-15258.32,-12708.04,-11908.23,-15258.32
+2026-05-01,2026,5,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-33101.26,-32440.2,-30169.13,-33101.26
+2026-05-01,2026,5,Réel,Services,7,IT & systèmes,Charges,EBITDA,-19727.72,-18537.26,-17635.57,-19727.72
+2026-05-01,2026,5,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-27692.09,-27805.89,-26036.12,-27692.09
+2026-06-01,2026,6,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1643159.03,1685264.52,1613850.63,1643159.03
+2026-06-01,2026,6,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-1036318.29,-1050754.0,-1001941.7,-1036318.29
+2026-06-01,2026,6,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-180340.01,-184619.92,-167931.36,-180340.01
+2026-06-01,2026,6,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-57238.32,-57027.35,-53419.15,-57238.32
+2026-06-01,2026,6,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-91609.93,-84263.23,-79214.01,-91609.93
+2026-06-01,2026,6,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-42880.95,-44950.94,-42141.2,-42880.95
+2026-06-01,2026,6,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-20191.22,-19264.69,-17617.81,-20191.22
+2026-06-01,2026,6,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-32097.46,-32107.81,-30143.11,-32097.46
+2026-06-01,2026,6,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,2088192.25,2060212.04,1957464.53,2088192.25
+2026-06-01,2026,6,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1493702.31,-1433775.0,-1363436.75,-1493702.31
+2026-06-01,2026,6,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-193210.43,-206023.91,-197924.86,-193210.43
+2026-06-01,2026,6,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-49507.11,-49788.91,-46299.54,-49507.11
+2026-06-01,2026,6,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-104835.55,-92709.54,-88098.7,-104835.55
+2026-06-01,2026,6,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-48418.6,-49053.31,-45380.27,-48418.6
+2026-06-01,2026,6,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-23727.47,-23545.59,-22205.08,-23727.47
+2026-06-01,2026,6,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-39158.71,-39242.65,-36760.91,-39158.71
+2026-06-01,2026,6,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2797397.96,2748498.0,2535231.51,2797397.96
+2026-06-01,2026,6,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-2221204.25,-2098840.0,-1929492.25,-2221204.25
+2026-06-01,2026,6,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-235720.76,-242668.43,-228066.46,-235720.76
+2026-06-01,2026,6,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-65344.69,-62105.9,-56696.78,-65344.69
+2026-06-01,2026,6,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-128935.95,-115436.92,-111155.09,-128935.95
+2026-06-01,2026,6,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-58183.61,-57098.45,-51609.97,-58183.61
+2026-06-01,2026,6,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-29622.23,-28549.23,-26907.29,-29622.23
+2026-06-01,2026,6,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-45714.19,-45678.76,-42431.93,-45714.19
+2026-06-01,2026,6,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1196777.07,1096110.9,1063278.91,1196777.07
+2026-06-01,2026,6,Réel,Services,2,Coût des ventes,Charges,Marge brute,-701659.15,-630984.0,-606894.57,-701659.15
+2026-06-01,2026,6,Réel,Services,3,Frais de personnel,Charges,EBITDA,-233503.24,-249094.41,-242218.7,-233503.24
+2026-06-01,2026,6,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-24179.58,-22796.77,-21245.28,-24179.58
+2026-06-01,2026,6,Réel,Services,5,Logistique & transport,Charges,EBITDA,-16177.44,-13153.33,-12432.28,-16177.44
+2026-06-01,2026,6,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-32540.54,-32440.2,-29316.26,-32540.54
+2026-06-01,2026,6,Réel,Services,7,IT & systèmes,Charges,EBITDA,-19311.37,-18537.26,-17155.76,-19311.37
+2026-06-01,2026,6,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-27755.5,-27805.89,-25362.71,-27755.5
+2026-07-01,2026,7,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1508161.92,1525279.15,1424154.84,1508161.92
+2026-07-01,2026,7,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-943998.93,-951020.0,-882952.51,-943998.93
+2026-07-01,2026,7,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-177028.14,-184619.92,-173753.8,-177028.14
+2026-07-01,2026,7,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-59069.7,-55347.5,-50822.97,-59069.7
+2026-07-01,2026,7,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-84575.56,-76263.96,-74103.71,-84575.56
+2026-07-01,2026,7,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-44176.37,-44950.94,-41079.25,-44176.37
+2026-07-01,2026,7,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-20350.01,-19264.69,-18118.46,-20350.01
+2026-07-01,2026,7,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-32172.19,-32107.81,-29996.48,-32172.19
+2026-07-01,2026,7,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1861718.11,1863801.88,1803282.4,1861718.11
+2026-07-01,2026,7,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1340550.51,-1297059.0,-1242562.69,-1340550.51
+2026-07-01,2026,7,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-202063.39,-206023.91,-190281.55,-202063.39
+2026-07-01,2026,7,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-50164.68,-48315.83,-44064.88,-50164.68
+2026-07-01,2026,7,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-92901.36,-83871.08,-78348.82,-92901.36
+2026-07-01,2026,7,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-51447.68,-49053.31,-45295.23,-51447.68
+2026-07-01,2026,7,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-24356.16,-23545.59,-21888.45,-24356.16
+2026-07-01,2026,7,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-39177.26,-39242.65,-35992.54,-39177.26
+2026-07-01,2026,7,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2595067.87,2571109.0,2412059.24,2595067.87
+2026-07-01,2026,7,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-2076907.46,-1962950.0,-1832965.89,-2076907.46
+2026-07-01,2026,7,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-238235.88,-242668.43,-226251.85,-238235.88
+2026-07-01,2026,7,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-61996.15,-60935.13,-56642.15,-61996.15
+2026-07-01,2026,7,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-123533.37,-107986.58,-97464.96,-123533.37
+2026-07-01,2026,7,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-58434.64,-57098.45,-55163.5,-58434.64
+2026-07-01,2026,7,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-28425.77,-28549.23,-26276.04,-28425.77
+2026-07-01,2026,7,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-45742.8,-45678.76,-42852.39,-45742.8
+2026-07-01,2026,7,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1069366.0,1009038.6,929970.79,1069366.0
+2026-07-01,2026,7,Réel,Services,2,Coût des ventes,Charges,Marge brute,-624077.7,-581174.0,-532342.63,-624077.7
+2026-07-01,2026,7,Réel,Services,3,Frais de personnel,Charges,EBITDA,-239236.47,-249094.41,-232065.06,-239236.47
+2026-07-01,2026,7,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-22507.04,-22274.33,-20745.61,-22507.04
+2026-07-01,2026,7,Réel,Services,5,Logistique & transport,Charges,EBITDA,-14202.61,-12108.46,-10975.17,-14202.61
+2026-07-01,2026,7,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-32009.65,-32440.2,-29276.02,-32009.65
+2026-07-01,2026,7,Réel,Services,7,IT & systèmes,Charges,EBITDA,-19682.47,-18537.26,-17156.06,-19682.47
+2026-07-01,2026,7,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-27753.14,-27805.89,-25821.66,-27753.14
+2026-08-01,2026,8,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1079611.72,1123613.23,1055462.96,1079611.72
+2026-08-01,2026,8,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-681558.88,-700571.0,-660110.36,-681558.88
+2026-08-01,2026,8,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-185852.46,-184619.92,-178616.56,-185852.46
+2026-08-01,2026,8,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-50953.51,-51130.01,-48496.95,-50953.51
+2026-08-01,2026,8,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-59710.6,-56180.66,-54188.98,-59710.6
+2026-08-01,2026,8,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-46877.36,-44950.94,-40835.68,-46877.36
+2026-08-01,2026,8,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-20414.28,-19264.69,-18216.12,-20414.28
+2026-08-01,2026,8,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-32022.71,-32107.81,-30125.36,-32022.71
+2026-08-01,2026,8,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,1396293.87,1373327.0,1270552.29,1396293.87
+2026-08-01,2026,8,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1001714.75,-955753.0,-883586.95,-1001714.75
+2026-08-01,2026,8,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-201257.62,-206023.91,-190682.61,-201257.62
+2026-08-01,2026,8,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-47180.49,-44637.27,-43053.07,-47180.49
+2026-08-01,2026,8,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-69742.3,-61799.71,-55987.69,-69742.3
+2026-08-01,2026,8,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-49566.02,-49053.31,-46068.42,-49566.02
+2026-08-01,2026,8,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-24217.14,-23545.59,-22069.82,-24217.14
+2026-08-01,2026,8,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-39147.46,-39242.65,-36011.86,-39147.46
+2026-08-01,2026,8,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,1780965.56,1785861.5,1649986.77,1780965.56
+2026-08-01,2026,8,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-1438282.53,-1367620.0,-1258089.94,-1438282.53
+2026-08-01,2026,8,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-235633.94,-242668.43,-231094.97,-235633.94
+2026-08-01,2026,8,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-57688.53,-55752.49,-52929.23,-57688.53
+2026-08-01,2026,8,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-79511.81,-75006.18,-68429.18,-79511.81
+2026-08-01,2026,8,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-60124.94,-57098.45,-53519.52,-60124.94
+2026-08-01,2026,8,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-28749.92,-28549.23,-26319.11,-28749.92
+2026-08-01,2026,8,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-45843.33,-45678.76,-41845.56,-45843.33
+2026-08-01,2026,8,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,866097.51,811810.9,769659.97,866097.51
+2026-08-01,2026,8,Réel,Services,2,Coût des ventes,Charges,Marge brute,-502515.16,-464480.0,-439131.01,-502515.16
+2026-08-01,2026,8,Réel,Services,3,Frais de personnel,Charges,EBITDA,-243278.84,-249094.41,-222191.61,-243278.84
+2026-08-01,2026,8,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-22035.58,-21090.97,-19738.61,-22035.58
+2026-08-01,2026,8,Réel,Services,5,Logistique & transport,Charges,EBITDA,-11424.22,-9741.73,-9248.17,-11424.22
+2026-08-01,2026,8,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-32685.06,-32440.2,-29344.28,-32685.06
+2026-08-01,2026,8,Réel,Services,7,IT & systèmes,Charges,EBITDA,-19598.98,-18537.26,-17422.7,-19598.98
+2026-08-01,2026,8,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-27844.46,-27805.89,-26081.94,-27844.46
+2026-09-01,2026,9,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1702682.97,1766013.28,1682586.37,1702682.97
+2026-09-01,2026,9,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-1067922.1,-1101114.0,-1044735.36,-1067922.1
+2026-09-01,2026,9,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-180438.14,-184619.92,-169211.87,-180438.14
+2026-09-01,2026,9,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-60116.97,-57875.21,-55630.99,-60116.97
+2026-09-01,2026,9,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-95168.6,-88300.66,-84359.03,-95168.6
+2026-09-01,2026,9,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-43390.04,-44950.94,-42289.4,-43390.04
+2026-09-01,2026,9,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-20636.84,-19264.69,-17937.51,-20636.84
+2026-09-01,2026,9,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-32076.07,-32107.81,-29703.89,-32076.07
+2026-09-01,2026,9,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,2163184.1,2158677.16,2107938.03,2163184.1
+2026-09-01,2026,9,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1549643.19,-1502313.0,-1459401.31,-1549643.19
+2026-09-01,2026,9,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-203592.11,-206023.91,-190661.38,-203592.11
+2026-09-01,2026,9,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-52800.0,-50527.4,-47459.22,-52800.0
+2026-09-01,2026,9,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-108552.61,-97140.47,-94810.5,-108552.61
+2026-09-01,2026,9,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-48710.26,-49053.31,-45742.59,-48710.26
+2026-09-01,2026,9,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-25166.65,-23545.59,-20746.52,-25166.65
+2026-09-01,2026,9,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-39222.54,-39242.65,-36847.52,-39222.54
+2026-09-01,2026,9,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,2904133.18,2924878.5,2814590.8,2904133.18
+2026-09-01,2026,9,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-2365836.49,-2254590.0,-2145807.49,-2365836.49
+2026-09-01,2026,9,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-241602.94,-242668.43,-220083.71,-241602.94
+2026-09-01,2026,9,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-67578.88,-63270.01,-59385.92,-67578.88
+2026-09-01,2026,9,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-135364.26,-122844.9,-114666.21,-135364.26
+2026-09-01,2026,9,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-58148.93,-57098.45,-53407.95,-58148.93
+2026-09-01,2026,9,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-28603.02,-28549.23,-26245.03,-28603.02
+2026-09-01,2026,9,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-45856.05,-45678.76,-42312.48,-45856.05
+2026-09-01,2026,9,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1430702.11,1324776.3,1220596.8,1430702.11
+2026-09-01,2026,9,Réel,Services,2,Coût des ventes,Charges,Marge brute,-833001.86,-752384.0,-684662.92,-833001.86
+2026-09-01,2026,9,Réel,Services,3,Frais de personnel,Charges,EBITDA,-236480.51,-249094.41,-228822.98,-236480.51
+2026-09-01,2026,9,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-25003.82,-24168.76,-22441.96,-25003.82
+2026-09-01,2026,9,Réel,Services,5,Logistique & transport,Charges,EBITDA,-18835.86,-15897.32,-14337.91,-18835.86
+2026-09-01,2026,9,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-33360.22,-32440.2,-30126.72,-33360.22
+2026-09-01,2026,9,Réel,Services,7,IT & systèmes,Charges,EBITDA,-20243.35,-18537.26,-17587.82,-20243.35
+2026-09-01,2026,9,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-27754.94,-27805.89,-25636.68,-27754.94
+2026-10-01,2026,10,Réel,Outillage,1,Chiffre d'affaires,Produits,Marge brute,1717115.86,1766013.28,1667443.93,1717115.86
+2026-10-01,2026,10,Réel,Outillage,2,Coût des ventes,Charges,Marge brute,-1075505.52,-1101114.0,-1032842.41,-1075505.52
+2026-10-01,2026,10,Réel,Outillage,3,Frais de personnel,Charges,EBITDA,-177184.24,-184619.92,-168173.19,-177184.24
+2026-10-01,2026,10,Réel,Outillage,4,Marketing & commercial,Charges,EBITDA,-60336.76,-57875.21,-53056.4,-60336.76
+2026-10-01,2026,10,Réel,Outillage,5,Logistique & transport,Charges,EBITDA,-96419.34,-88300.66,-80599.37,-96419.34
+2026-10-01,2026,10,Réel,Outillage,6,Loyers & frais généraux,Charges,EBITDA,-44547.21,-44950.94,-42027.06,-44547.21
+2026-10-01,2026,10,Réel,Outillage,7,IT & systèmes,Charges,EBITDA,-19967.8,-19264.69,-17263.37,-19967.8
+2026-10-01,2026,10,Réel,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-32223.92,-32107.81,-29650.63,-32223.92
+2026-10-01,2026,10,Réel,Électricité,1,Chiffre d'affaires,Produits,Marge brute,2239051.9,2158677.16,2027621.07,2239051.9
+2026-10-01,2026,10,Réel,Électricité,2,Coût des ventes,Charges,Marge brute,-1602848.15,-1502313.0,-1404662.29,-1602848.15
+2026-10-01,2026,10,Réel,Électricité,3,Frais de personnel,Charges,EBITDA,-209291.1,-206023.91,-199276.15,-209291.1
+2026-10-01,2026,10,Réel,Électricité,4,Marketing & commercial,Charges,EBITDA,-51877.39,-50527.4,-47644.41,-51877.39
+2026-10-01,2026,10,Réel,Électricité,5,Logistique & transport,Charges,EBITDA,-112773.4,-97140.47,-91689.56,-112773.4
+2026-10-01,2026,10,Réel,Électricité,6,Loyers & frais généraux,Charges,EBITDA,-49801.19,-49053.31,-45629.48,-49801.19
+2026-10-01,2026,10,Réel,Électricité,7,IT & systèmes,Charges,EBITDA,-25101.47,-23545.59,-21332.2,-25101.47
+2026-10-01,2026,10,Réel,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-39099.4,-39242.65,-35832.23,-39099.4
+2026-10-01,2026,10,Réel,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,3514120.05,3509849.0,3193379.03,3514120.05
+2026-10-01,2026,10,Réel,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,-2878080.24,-2710130.0,-2449712.35,-2878080.24
+2026-10-01,2026,10,Réel,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,-234878.79,-242668.43,-220183.47,-234878.79
+2026-10-01,2026,10,Réel,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,-70113.34,-67130.81,-61212.93,-70113.34
+2026-10-01,2026,10,Réel,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,-162875.72,-147413.66,-136712.66,-162875.72
+2026-10-01,2026,10,Réel,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,-57756.26,-57098.45,-54555.3,-57756.26
+2026-10-01,2026,10,Réel,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,-29522.41,-28549.23,-26254.04,-29522.41
+2026-10-01,2026,10,Réel,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-45841.66,-45678.76,-41911.8,-45841.66
+2026-10-01,2026,10,Réel,Services,1,Chiffre d'affaires,Produits,Marge brute,1352835.37,1264245.0,1198332.4,1352835.37
+2026-10-01,2026,10,Réel,Services,2,Coût des ventes,Charges,Marge brute,-780559.4,-723248.0,-685353.43,-780559.4
+2026-10-01,2026,10,Réel,Services,3,Frais de personnel,Charges,EBITDA,-234292.71,-249094.41,-227656.44,-234292.71
+2026-10-01,2026,10,Réel,Services,4,Marketing & commercial,Charges,EBITDA,-25057.45,-23805.57,-22336.35,-25057.45
+2026-10-01,2026,10,Réel,Services,5,Logistique & transport,Charges,EBITDA,-17951.02,-15170.94,-14064.69,-17951.02
+2026-10-01,2026,10,Réel,Services,6,Loyers & frais généraux,Charges,EBITDA,-33328.22,-32440.2,-30221.36,-33328.22
+2026-10-01,2026,10,Réel,Services,7,IT & systèmes,Charges,EBITDA,-19616.25,-18537.26,-17740.8,-19616.25
+2026-10-01,2026,10,Réel,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,-27867.19,-27805.89,-25714.13,-27867.19
+2026-11-01,2026,11,Prévision,Outillage,1,Chiffre d'affaires,Produits,Marge brute,,1766013.28,1665536.0,1716929.43
+2026-11-01,2026,11,Prévision,Outillage,2,Coût des ventes,Charges,Marge brute,,-1101114.0,-1032247.39,-1092387.89
+2026-11-01,2026,11,Prévision,Outillage,3,Frais de personnel,Charges,EBITDA,,-184619.92,-172882.22,-180211.59
+2026-11-01,2026,11,Prévision,Outillage,4,Marketing & commercial,Charges,EBITDA,,-57875.21,-55386.93,-59459.83
+2026-11-01,2026,11,Prévision,Outillage,5,Logistique & transport,Charges,EBITDA,,-88300.66,-81461.53,-95381.17
+2026-11-01,2026,11,Prévision,Outillage,6,Loyers & frais généraux,Charges,EBITDA,,-44950.94,-41833.98,-44936.95
+2026-11-01,2026,11,Prévision,Outillage,7,IT & systèmes,Charges,EBITDA,,-19264.69,-18687.88,-20211.89
+2026-11-01,2026,11,Prévision,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,,-32107.81,-29699.8,-32100.96
+2026-11-01,2026,11,Prévision,Électricité,1,Chiffre d'affaires,Produits,Marge brute,,2158677.16,2009747.04,2174625.86
+2026-11-01,2026,11,Prévision,Électricité,2,Coût des ventes,Charges,Marge brute,,-1502313.0,-1390239.74,-1544355.16
+2026-11-01,2026,11,Prévision,Électricité,3,Frais de personnel,Charges,EBITDA,,-206023.91,-193460.43,-200143.34
+2026-11-01,2026,11,Prévision,Électricité,4,Marketing & commercial,Charges,EBITDA,,-50527.4,-45930.05,-52197.85
+2026-11-01,2026,11,Prévision,Électricité,5,Logistique & transport,Charges,EBITDA,,-97140.47,-87001.34,-108935.03
+2026-11-01,2026,11,Prévision,Électricité,6,Loyers & frais généraux,Charges,EBITDA,,-49053.31,-43670.97,-49359.99
+2026-11-01,2026,11,Prévision,Électricité,7,IT & systèmes,Charges,EBITDA,,-23545.59,-22256.98,-24307.59
+2026-11-01,2026,11,Prévision,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,,-39242.65,-36626.31,-39179.96
+2026-11-01,2026,11,Prévision,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,,3672918.0,3536415.13,3687557.46
+2026-11-01,2026,11,Prévision,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,,-2837200.0,-2714258.4,-2905657.29
+2026-11-01,2026,11,Prévision,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,,-242668.43,-224093.66,-236135.42
+2026-11-01,2026,11,Prévision,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,,-68207.07,-63064.78,-70889.51
+2026-11-01,2026,11,Prévision,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,,-154262.56,-149184.57,-172215.92
+2026-11-01,2026,11,Prévision,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,,-57098.45,-54030.35,-57894.98
+2026-11-01,2026,11,Prévision,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,,-28549.23,-26810.19,-29591.36
+2026-11-01,2026,11,Prévision,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,,-45678.76,-43009.27,-45756.08
+2026-11-01,2026,11,Prévision,Services,1,Chiffre d'affaires,Produits,Marge brute,,1261961.7,1192807.32,1356769.81
+2026-11-01,2026,11,Prévision,Services,2,Coût des ventes,Charges,Marge brute,,-723430.0,-684293.77,-793138.44
+2026-11-01,2026,11,Prévision,Services,3,Frais de personnel,Charges,EBITDA,,-249094.41,-223359.2,-237945.87
+2026-11-01,2026,11,Prévision,Services,4,Marketing & commercial,Charges,EBITDA,,-23791.87,-22094.82,-24909.21
+2026-11-01,2026,11,Prévision,Services,5,Logistique & transport,Charges,EBITDA,,-15143.54,-14160.83,-18026.28
+2026-11-01,2026,11,Prévision,Services,6,Loyers & frais généraux,Charges,EBITDA,,-32440.2,-29661.19,-32909.29
+2026-11-01,2026,11,Prévision,Services,7,IT & systèmes,Charges,EBITDA,,-18537.26,-16851.69,-19456.18
+2026-11-01,2026,11,Prévision,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,,-27805.89,-25713.44,-27814.53
+2026-12-01,2026,12,Prévision,Outillage,1,Chiffre d'affaires,Produits,Marge brute,,1685264.52,1561746.39,1638398.33
+2026-12-01,2026,12,Prévision,Outillage,2,Coût des ventes,Charges,Marge brute,,-1050754.0,-966791.98,-1042409.87
+2026-12-01,2026,12,Prévision,Outillage,3,Frais de personnel,Charges,EBITDA,,-184619.92,-167411.79,-180211.59
+2026-12-01,2026,12,Prévision,Outillage,4,Marketing & commercial,Charges,EBITDA,,-57027.35,-54972.79,-58588.75
+2026-12-01,2026,12,Prévision,Outillage,5,Logistique & transport,Charges,EBITDA,,-84263.23,-78240.64,-91019.99
+2026-12-01,2026,12,Prévision,Outillage,6,Loyers & frais généraux,Charges,EBITDA,,-44950.94,-40897.97,-44936.95
+2026-12-01,2026,12,Prévision,Outillage,7,IT & systèmes,Charges,EBITDA,,-19264.69,-18179.44,-20211.89
+2026-12-01,2026,12,Prévision,Outillage,8,Dotations aux amortissements,Charges,Résultat d'exploitation,,-32107.81,-29372.2,-32100.96
+2026-12-01,2026,12,Prévision,Électricité,1,Chiffre d'affaires,Produits,Marge brute,,2060212.04,1924623.48,2075443.56
+2026-12-01,2026,12,Prévision,Électricité,2,Coût des ventes,Charges,Marge brute,,-1433775.0,-1330226.61,-1473907.78
+2026-12-01,2026,12,Prévision,Électricité,3,Frais de personnel,Charges,EBITDA,,-206023.91,-192575.04,-200143.34
+2026-12-01,2026,12,Prévision,Électricité,4,Marketing & commercial,Charges,EBITDA,,-49788.91,-46150.52,-51434.94
+2026-12-01,2026,12,Prévision,Électricité,5,Logistique & transport,Charges,EBITDA,,-92709.54,-86701.66,-103966.11
+2026-12-01,2026,12,Prévision,Électricité,6,Loyers & frais généraux,Charges,EBITDA,,-49053.31,-44915.53,-49359.99
+2026-12-01,2026,12,Prévision,Électricité,7,IT & systèmes,Charges,EBITDA,,-23545.59,-22063.06,-24307.59
+2026-12-01,2026,12,Prévision,Électricité,8,Dotations aux amortissements,Charges,Résultat d'exploitation,,-39242.65,-35945.83,-39179.96
+2026-12-01,2026,12,Prévision,Chauffage & Climatisation,1,Chiffre d'affaires,Produits,Marge brute,,3704035.0,3486017.18,3718975.5
+2026-12-01,2026,12,Prévision,Chauffage & Climatisation,2,Coût des ventes,Charges,Marge brute,,-2860520.0,-2668100.92,-2929676.1
+2026-12-01,2026,12,Prévision,Chauffage & Climatisation,3,Frais de personnel,Charges,EBITDA,,-242668.43,-238810.88,-236135.42
+2026-12-01,2026,12,Prévision,Chauffage & Climatisation,4,Marketing & commercial,Charges,EBITDA,,-68412.44,-63536.28,-71102.95
+2026-12-01,2026,12,Prévision,Chauffage & Climatisation,5,Logistique & transport,Charges,EBITDA,,-155569.47,-145409.47,-173674.93
+2026-12-01,2026,12,Prévision,Chauffage & Climatisation,6,Loyers & frais généraux,Charges,EBITDA,,-57098.45,-54056.11,-57894.98
+2026-12-01,2026,12,Prévision,Chauffage & Climatisation,7,IT & systèmes,Charges,EBITDA,,-28549.23,-25337.88,-29591.36
+2026-12-01,2026,12,Prévision,Chauffage & Climatisation,8,Dotations aux amortissements,Charges,Résultat d'exploitation,,-45678.76,-41862.36,-45756.08
+2026-12-01,2026,12,Prévision,Services,1,Chiffre d'affaires,Produits,Marge brute,,1237095.9,1193922.72,1329524.34
+2026-12-01,2026,12,Prévision,Services,2,Coût des ventes,Charges,Marge brute,,-709444.0,-680264.23,-777513.69
+2026-12-01,2026,12,Prévision,Services,3,Frais de personnel,Charges,EBITDA,,-249094.41,-227625.43,-237945.87
+2026-12-01,2026,12,Prévision,Services,4,Marketing & commercial,Charges,EBITDA,,-23642.68,-22224.49,-24753.01
+2026-12-01,2026,12,Prévision,Services,5,Logistique & transport,Charges,EBITDA,,-14845.15,-14666.01,-17671.09
+2026-12-01,2026,12,Prévision,Services,6,Loyers & frais généraux,Charges,EBITDA,,-32440.2,-29579.62,-32909.29
+2026-12-01,2026,12,Prévision,Services,7,IT & systèmes,Charges,EBITDA,,-18537.26,-17763.3,-19456.18
+2026-12-01,2026,12,Prévision,Services,8,Dotations aux amortissements,Charges,Résultat d'exploitation,,-27805.89,-25932.21,-27814.53
