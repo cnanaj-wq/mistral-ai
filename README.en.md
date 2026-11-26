@@ -15,6 +15,7 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-1f3a5f" alt="MIT license" /></a>
+  <a href="https://github.com/cnanaj-wq/mistral-ai/actions/workflows/controle.yml"><img src="https://github.com/cnanaj-wq/mistral-ai/actions/workflows/controle.yml/badge.svg" alt="Automatic check" /></a>
   <img src="https://img.shields.io/badge/Mistral%20AI-API-fa520f" alt="Mistral AI API" />
   <img src="https://img.shields.io/badge/Python-3.12-3776ab?logo=python&logoColor=white" alt="Python 3.12" />
   <img src="https://img.shields.io/badge/Qlik%20Sense%20Cloud-check-009845" alt="Checked in Qlik Sense Cloud" />
