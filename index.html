@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self'; connect-src 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Mistral AI : convertir cinq expressions Spotfire en set analysis Qlik Sense</title>
+<meta name="description" content="Expérimentation : un script Python demande à l'API Mistral de convertir cinq expressions Spotfire en set analysis Qlik Sense puis contrôle chaque réponse dans Qlik Sense. Données fictives.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,400..800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=3">
+</head>
+<body>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+
+<header class="entete">
+  <a class="entete__marque" href="#haut">Spotfire <span aria-hidden="true">›</span> Qlik Sense <span aria-hidden="true">·</span> Mistral AI</a>
+  <nav class="entete__nav" aria-label="Sections de la page">
+    <a href="#haut">Accueil</a>
+    <a href="#principe">Principe</a>
+    <a href="#expressions">Expressions</a>
+    <a href="#essai1">Essai 1</a>
+    <a href="#essai2">Essai 2</a>
+    <a href="#limites">Limites</a>
+  </nav>
+  <a class="entete__depot" href="https://github.com/cnanaj-wq/mistral-ai">GitHub</a>
+</header>
+
+<main id="contenu">
+
+<section class="hero" id="haut">
+  <p class="hero__nature">Migration BI, automatisation et intelligence artificielle</p>
+  <h1>Mistral AI convertit cinq expressions Spotfire en set analysis Qlik&nbsp;Sense.</h1>
+  <p class="hero__chapo">Un script Python appelle l'API de Mistral, exécute chaque réponse dans Qlik Sense et compare le résultat obtenu au résultat attendu.</p>
+  <ul class="hero__faits">
+    <li><b>5 / 5</b><span>résultats conformes après correction</span></li>
+    <li><b>1 / 5</b><span>résultat conforme au premier essai</span></li>
+    <li><b>11</b><span>demandes envoyées à Mistral</span></li>
+    <li><b>0</b><span>ligne de données envoyée à l'API</span></li>
+  </ul>
+</section>
+
+<section class="bloc bloc--teinte" id="contexte" aria-labelledby="titre-contexte">
+  <h2 id="titre-contexte">Contexte et question posée</h2>
+  <div class="contexte">
+    <div>
+      <p>Migrer un tableau de bord de Spotfire vers Qlik Sense demande de réécrire chaque expression de calcul : les deux outils ne filtrent pas les données de la même façon. À la main c'est long et répétitif.</p>
+      <p>La question : un modèle de langage peut-il faire cette réécriture et peut-on le vérifier sans le croire sur parole ?</p>
+    </div>
+    <div>
+      <p>La réponse se mesure. Une expression convertie n'est acceptée que si elle donne le nombre attendu une fois exécutée dans Qlik Sense.</p>
+      <p>Les données sont celles d'une société fictive, Orvane Distribution, reprises du projet de <a href="https://cnanaj-wq.github.io/migration-spotfire-qlik-sense/">migration de Spotfire vers Qlik Sense</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bloc bloc--sombre" id="principe" aria-labelledby="titre-principe">
+  <h2 id="titre-principe">Le principe en quatre étapes</h2>
+  <p class="bloc__chapo">Python est au centre : il appelle Mistral, exécute dans Qlik Sense et compare.</p>
+  <ol class="etapes">
+    <li>
+      <h3>Envoyer</h3>
+      <p><code>convertir.py</code> envoie à l'API de Mistral l'expression Spotfire, sa limitation de données et la description du modèle Qlik Sense.</p>
+    </li>
+    <li>
+      <h3>Récupérer</h3>
+      <p>Mistral renvoie une expression Qlik Sense en JSON. Le script l'enregistre telle quelle.</p>
+    </li>
+    <li>
+      <h3>Exécuter</h3>
+      <p><code>controler.py</code> exécute l'expression dans Qlik Sense Cloud et récupère la valeur calculée.</p>
+    </li>
+    <li>
+      <h3>Comparer</h3>
+      <p>La valeur est comparée à celle que <code>reference.py</code> recalcule depuis les fichiers sources. Conforme ou non conforme.</p>
+    </li>
+  </ol>
+  <p class="schema__note">Seules les expressions et la description du modèle partent vers l'API. Aucune ligne de données n'est envoyée. Le script n'utilise que la bibliothèque standard de Python.</p>
+</section>
+
+<section class="bloc" id="expressions" aria-labelledby="titre-expressions">
+  <h2 id="titre-expressions">Les cinq expressions à convertir</h2>
+  <p class="bloc__chapo">Dans Spotfire le filtre est posé à côté de l'expression. Dans Qlik Sense il entre dans l'expression : c'est le set analysis.</p>
+  <div class="totaux cas">
+    <div class="totaux__defile">
+      <table>
+        <thead>
+          <tr><th scope="col">Indicateur</th><th scope="col">Expression Spotfire</th><th scope="col">Limitation de données Spotfire</th><th scope="col">Valeur attendue</th></tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Chiffre d'affaires cumulé</th><td><code>Sum([CA Réel])</code></td><td><code>[Exercice] = 2026 and [Mois] &lt;= 10</code></td><td>74 215 646,71</td></tr>
+          <tr><th scope="row">Taux de marge</th><td><code>100 * Sum([Marge brute Réel]) / Sum([CA Réel])</code></td><td><code>[Exercice] = 2026 and [Mois] &lt;= 10</code></td><td>29,4514 %</td></tr>
+          <tr><th scope="row">Écart de chiffre d'affaires au budget</th><td><code>100 * (Sum([CA Réel]) / Sum([CA Budget]) - 1)</code></td><td><code>[Exercice] = 2026 and [Mois] &lt;= 10</code></td><td>+1,0753 %</td></tr>
+          <tr><th scope="row">EBITDA</th><td><code>Sum([Réel])</code></td><td><code>[Exercice] = 2026 and [Mois] &lt;= 10 and [Ordre] &lt;= 7</code></td><td>5 311 850,59</td></tr>
+          <tr><th scope="row">Effets sur la marge</th><td><code>Sum([Montant]) / 1000</code></td><td><code>[Exercice] = 2026 and [Type] = "Effet"</code></td><td>−1 072,4964 k€</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="bloc bloc--teinte" id="essai1" aria-labelledby="titre-essai1">
+  <h2 id="titre-essai1">Essai 1 : la traduction seule</h2>
+  <p class="bloc__chapo">Une demande par expression, sans correction. Résultat : 1 conforme sur 5.</p>
+  <div class="constat">
+    <div class="formules">
+      <p class="formules__outil">Ce que Mistral a écrit</p>
+      <pre>Sum({&lt;[Exercice]={2026}, [Mois]=<mark>{&lt;=10}</mark>&gt;} [CA Réel])</pre>
+      <p class="formules__outil">Ce que Qlik Sense attend</p>
+      <pre>Sum({&lt;[Exercice]={2026}, [Mois]=<mark>{"&lt;=10"}</mark>&gt;} [CA Réel])</pre>
+    </div>
+    <div>
+      <h3>Deux guillemets</h3>
+      <p>Dans un set analysis une comparaison est une recherche et s'écrit entre guillemets. Sans eux Qlik Sense ne renvoie aucune valeur.</p>
+      <p>Les quatre échecs ont cette même cause. Le seul cas conforme est celui qui ne contient aucune comparaison.</p>
+      <p>Les quatre expressions se lisaient bien et ressemblaient à du Qlik Sense correct. Sans exécution l'erreur passait inaperçue.</p>
+    </div>
+  </div>
+  <div class="erreurs reussites">
+    <article>
+      <h3>Ce que Mistral a réussi</h3>
+      <p>Dans les cinq cas la limitation Spotfire est bien entrée dans l'expression.</p>
+    </article>
+    <article>
+      <h3>Les champs renommés</h3>
+      <p>Mistral a retrouvé <code>[CR Réel]</code>, <code>[Ordre rubrique]</code>, <code>[Type de poste]</code> et <code>[Écart de marge]</code> à partir de la description du modèle.</p>
+    </article>
+    <article>
+      <h3>Ce qui a échoué</h3>
+      <p>La syntaxe des comparaisons : quatre expressions sur cinq ne calculaient rien.</p>
+    </article>
+  </div>
+</section>
+
+<section class="bloc" id="essai2" aria-labelledby="titre-essai2">
+  <h2 id="titre-essai2">Essai 2 : la boucle de correction</h2>
+  <p class="bloc__chapo">Après chaque échec <code>corriger.py</code> renvoie à Mistral sa réponse et ce que Qlik Sense a répondu, sans la valeur attendue ni indication sur la cause. Deux corrections au plus par expression.</p>
+  <div class="totaux cas">
+    <div class="totaux__defile">
+      <table>
+        <caption>5 conformes sur 5 en 11 demandes</caption>
+        <thead>
+          <tr><th scope="col">Indicateur</th><th scope="col">Demandes à Mistral</th><th scope="col">Nombre</th></tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Chiffre d'affaires cumulé</th><td><span class="pastille pastille--non">1 : échec</span><span class="pastille pastille--oui">2 : conforme</span></td><td>2</td></tr>
+          <tr><th scope="row">Taux de marge</th><td><span class="pastille pastille--non">1 : échec</span><span class="pastille pastille--non">2 : échec</span><span class="pastille pastille--oui">3 : conforme</span></td><td>3</td></tr>
+          <tr><th scope="row">Écart de chiffre d'affaires au budget</th><td><span class="pastille pastille--non">1 : échec</span><span class="pastille pastille--oui">2 : conforme</span></td><td>2</td></tr>
+          <tr><th scope="row">EBITDA</th><td><span class="pastille pastille--non">1 : échec</span><span class="pastille pastille--non">2 : échec</span><span class="pastille pastille--oui">3 : conforme</span></td><td>3</td></tr>
+          <tr><th scope="row">Effets sur la marge</th><td><span class="pastille pastille--oui">1 : conforme</span></td><td>1</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="constat constat--trace">
+    <div class="formules">
+      <p class="formules__outil">Le cas EBITDA, demande par demande (la partie qui change)</p>
+      <pre><span class="trace__n">1</span>[Mois]=<mark>{&lt;=10}</mark>            <span class="trace__non">aucune valeur renvoyée</span>
+<span class="trace__n">2</span>[Mois]=<mark>{1..10}</mark>            <span class="trace__non">aucune valeur renvoyée</span>
+<span class="trace__n">3</span>[Mois]=<mark>{1,2,3,4,5,6,7,8,9,10}</mark>  <span class="trace__oui">conforme : 5 311 850,59</span></pre>
+    </div>
+    <div>
+      <h3>Un contournement</h3>
+      <p>Mistral n'a pas trouvé la règle des guillemets. Il l'a contournée en listant les valeurs une à une.</p>
+      <p>Le nombre est juste mais l'écriture est plus lourde que celle de la migration manuelle, <code>[Mois clos]={1}</code>. Elle devra être reprise à la main si un mois de plus est clôturé.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bloc bloc--sombre" id="retenir" aria-labelledby="titre-retenir">
+  <h2 id="titre-retenir">Ce que j'en retiens</h2>
+  <div class="essais">
+    <article>
+      <h3>Une proposition</h3>
+      <p>La réponse d'un modèle de langage n'est pas un résultat. C'est une proposition à exécuter et à comparer.</p>
+    </article>
+    <article>
+      <h3>Un contrôle</h3>
+      <p>C'est l'exécution dans Qlik Sense qui a montré les quatre échecs. La relecture ne les avait pas vus.</p>
+    </article>
+    <article>
+      <h3>Un arbitrage</h3>
+      <p>Un résultat conforme ne dit pas que l'écriture est la bonne. L'expert BI garde la main sur l'expression retenue.</p>
+    </article>
+  </div>
+</section>
+
+<section class="bloc bloc--teinte" id="limites" aria-labelledby="titre-limites">
+  <h2 id="titre-limites">Les limites de l'expérimentation</h2>
+  <ul class="limites limites--page">
+    <li>L'expérimentation porte sur cinq expressions et des données fictives. Il s'agit d'un démonstrateur technique.</li>
+    <li>Une seule exécution avec un seul modèle, <code>mistral-medium-latest</code>, le 26/11/2026. Un autre essai peut donner d'autres réponses.</li>
+    <li>La validation métier est une étape indispensable avant toute mise en production.</li>
+  </ul>
+</section>
+
+<section class="bloc" id="ressources" aria-labelledby="titre-ressources">
+  <h2 id="titre-ressources">Auteur et ressources</h2>
+  <div class="ressources">
+    <div>
+      <p class="ressources__nom">Cédric NANA</p>
+      <p>Expert BI &amp; Data | Analytics &amp; AI Automation</p>
+      <p class="ressources__liens"><a href="https://github.com/cnanaj-wq">GitHub</a><a href="https://www.linkedin.com/in/c%C3%A9dric-nana-68466a28/">LinkedIn</a><a href="https://cedricnana.fr">cedricnana.fr</a></p>
+    </div>
+    <ul class="ressources__docs">
+      <li><a href="https://github.com/cnanaj-wq/mistral-ai">Le dépôt mistral-ai</a><span>scripts, données et résultats</span></li>
+      <li><a href="https://github.com/cnanaj-wq/mistral-ai/blob/main/cas.json">Les cinq cas</a><span>expressions Spotfire et valeurs attendues</span></li>
+      <li><a href="https://github.com/cnanaj-wq/mistral-ai/blob/main/modele_qlik.md">Le contexte envoyé à Mistral</a><span>la description du modèle Qlik Sense</span></li>
+      <li><a href="https://github.com/cnanaj-wq/mistral-ai/blob/main/resultats.md">Le détail du contrôle</a><span>chaque réponse et son verdict</span></li>
+      <li><a href="https://cnanaj-wq.github.io/migration-spotfire-qlik-sense/">La migration de Spotfire vers Qlik Sense</a><span>le projet d'où viennent les données</span></li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<footer class="pied">
+  <p><b>Cédric NANA</b> — Expert BI &amp; Data | Analytics &amp; AI Automation</p>
+  <p>Expérimentation sur données fictives : la société Orvane Distribution n'existe pas.</p>
+</footer>
+</body>
+</html>
