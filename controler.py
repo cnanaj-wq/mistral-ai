@@ -27,6 +27,8 @@ def evaluer(application, expression):
     if sortie.returncode != 0 or len(lignes) < 2:
         return None, (sortie.stderr or sortie.stdout).strip()[:200]
     texte = lignes[-1].strip()
+    if texte == "-":
+        return None, "Qlik ne renvoie aucune valeur (expression invalide)"
     try:
         # Qlik affiche les nombres à la française : espace des milliers, virgule décimale
         return float(texte.replace("\u00a0", "").replace(" ", "").replace(",", ".")), ""

@@ -1,8 +1,9 @@
 """Demande à Mistral de convertir les expressions Spotfire de cas.json en expressions Qlik Sense.
 
 Usage : python convertir.py
-La clé se lit dans la variable d'environnement MISTRAL_API_KEY. Elle n'est jamais écrite
-dans un fichier ni affichée. Le modèle se choisit avec MISTRAL_MODELE.
+La clé se lit dans le fichier .env (ignoré par Git, voir .env.example), sinon dans la variable
+d'environnement MISTRAL_API_KEY. Elle n'est jamais affichée. Le modèle se choisit avec la
+variable d'environnement MISTRAL_MODELE.
 Résultat : conversions.json
 """
 
@@ -15,7 +16,7 @@ import urllib.request
 
 DOSSIER = pathlib.Path(__file__).parent
 ADRESSE = "https://api.mistral.ai/v1/chat/completions"
-MODELE = os.environ.get("MISTRAL_MODELE", "mistral-large-latest")
+MODELE = os.environ.get("MISTRAL_MODELE", "mistral-medium-latest")
 
 CONSIGNE = """Tu convertis une expression Spotfire en expression Qlik Sense.
 
@@ -53,10 +54,21 @@ def demander(cle, consigne, question):
     return json.loads(contenu["choices"][0]["message"]["content"]), contenu.get("model", MODELE)
 
 
+def lire_cle():
+    """La clé du fichier .env, sinon celle de la variable d'environnement."""
+    fichier = DOSSIER / ".env"
+    if fichier.exists():
+        for ligne in fichier.read_text(encoding="utf-8-sig").splitlines():
+            nom, _, valeur = ligne.partition("=")
+            if nom.strip() == "MISTRAL_API_KEY" and valeur.strip():
+                return valeur.strip().strip("\"'")
+    return os.environ.get("MISTRAL_API_KEY", "")
+
+
 def main():
-    cle = os.environ.get("MISTRAL_API_KEY")
-    if not cle:
-        sys.exit("Variable d'environnement MISTRAL_API_KEY absente : rien n'a été envoyé.")
+    cle = lire_cle()
+    if not cle or not cle.isascii() or " " in cle:
+        sys.exit("Clé MISTRAL_API_KEY absente ou invalide dans .env : rien n'a été envoyé.")
     consigne = CONSIGNE.format(modele=(DOSSIER / "modele_qlik.md").read_text(encoding="utf-8"))
     cas = json.loads((DOSSIER / "cas.json").read_text(encoding="utf-8"))
     conversions = []

@@ -24,6 +24,7 @@
 <p align="center">
   <a href="#démarrage-rapide"><b>Démarrage</b></a>
   &nbsp;·&nbsp; <a href="#architecture">Architecture</a>
+  &nbsp;·&nbsp; <a href="#logigramme">Logigramme</a>
   &nbsp;·&nbsp; <a href="#résultats">Résultats</a>
   &nbsp;·&nbsp; <a href="#limites">Limites</a>
 </p>
@@ -107,19 +108,47 @@ flowchart LR
 
 Trois scripts, trois rôles : `reference.py` calcule ce qu'il faut obtenir, `convertir.py` interroge Mistral, `controler.py` exécute la réponse dans Qlik Sense et tranche.
 
+## Logigramme
+
+Le parcours d'une expression, de Spotfire jusqu'au verdict :
+
+```mermaid
+flowchart TD
+  A[Expression Spotfire<br/>et sa limitation de données] --> B[convertir.py envoie le cas<br/>et le modèle Qlik à Mistral]
+  B --> C[Mistral renvoie<br/>une expression Qlik]
+  C --> D{Qlik Sense<br/>exécute l'expression ?}
+  D -- "non : erreur de syntaxe<br/>ou champ inconnu" --> N[Non conforme]
+  D -- oui --> E{Le résultat égale<br/>la valeur attendue ?}
+  E -- oui --> O[Conforme]
+  E -- non --> N
+  N --> X[L'expert BI corrige<br/>ou réécrit à la main]
+  R[reference.py recalcule la valeur<br/>attendue depuis data/] --> E
+```
+
 ## Résultats
 
-Le témoin est en place : les 5 expressions de la migration manuelle, exécutées dans Qlik Sense, donnent les 5 valeurs attendues.
+Essai du 26/11/2026, modèle `mistral-medium-latest`, une seule demande par expression, sans correction.
 
-| Cas | Valeur attendue | Migration manuelle |
-|---|---|---|
-| Chiffre d'affaires cumulé | 74 215 646,71 | conforme |
-| Taux de marge | 29,4514 % | conforme |
-| Écart de chiffre d'affaires au budget | +1,0753 % | conforme |
-| EBITDA | 5 311 850,59 | conforme |
-| Effets sur la marge | −1 072,4964 k€ | conforme |
+| Cas | Valeur attendue | Migration manuelle | Conversion par Mistral |
+|---|---|---|---|
+| Chiffre d'affaires cumulé | 74 215 646,71 | conforme | non conforme |
+| Taux de marge | 29,4514 % | conforme | non conforme |
+| Écart de chiffre d'affaires au budget | +1,0753 % | conforme | non conforme |
+| EBITDA | 5 311 850,59 | conforme | non conforme |
+| Effets sur la marge | −1 072,4964 k€ | conforme | conforme |
+| **Total** | | **5 sur 5** | **1 sur 5** |
 
-La conversion par Mistral n'a pas encore été lancée. Ses résultats seront ajoutés ici, expression par expression, y compris celles qui échouent.
+Les quatre échecs ont la même cause, une règle de syntaxe de Qlik Sense. Mistral a écrit :
+
+```
+Sum({<[Exercice]={2026}, [Mois]={<=10}>} [CA Réel])
+```
+
+Dans une analyse d'ensembles, une comparaison est une recherche et s'écrit entre guillemets : `[Mois]={"<=10"}`. Sans eux, Qlik Sense ne renvoie aucune valeur.
+
+Ce que Mistral a réussi dans les cinq cas : faire entrer la limitation Spotfire dans l'expression, et retrouver les champs renommés (`[CR Réel]`, `[Ordre rubrique]`, `[Type de poste]`, `[Écart de marge]`). Le seul cas conforme est celui qui ne contient aucune comparaison.
+
+Ce que l'essai montre : la conversion ressemble à du Qlik correct et se lit bien, mais quatre fois sur cinq elle ne calcule rien. Sans exécution dans Qlik Sense, l'erreur passait inaperçue. Les réponses brutes sont dans [`conversions.json`](conversions.json), le détail du contrôle dans [`resultats.md`](resultats.md).
 
 ## Plan du dépôt
 
@@ -135,10 +164,11 @@ img/                visuel d'en-tête et son script
 
 ## Limites
 
+- **Un seul essai.** Une demande par expression, un seul modèle, aucune seconde chance : le résultat ne dit pas ce que donnerait un autre modèle, une consigne plus précise ou un renvoi de l'erreur à Mistral.
 - **Cinq expressions, pas un outil.** Le jeu est trop petit pour conclure sur un tableau de bord entier.
 - **Le modèle Qlik est fourni.** Mistral reçoit la liste des champs renommés. Sans elle, il ne peut pas deviner que `[Réel]` est devenu `[CR Réel]`.
 - **Un nombre juste ne prouve pas tout.** Le contrôle se fait sans sélection. Une expression peut donner le bon total et mal réagir quand l'utilisateur filtre une région ou un mois.
-- **Une réponse peut changer.** La température est à 0, mais un nom de modèle comme `mistral-large-latest` désigne un modèle qui évolue. `conversions.json` garde le nom du modèle qui a répondu.
+- **Une réponse peut changer.** La température est à 0, mais un nom de modèle comme `mistral-medium-latest` désigne un modèle qui évolue. `conversions.json` garde le nom du modèle qui a répondu.
 - **Le contrôle demande Qlik Sense Cloud.** Sans tenant, seul `reference.py` peut être lancé.
 
 ## Ce qui est envoyé à Mistral

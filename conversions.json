@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ca_cumule",
+    "modele": "mistral-medium-latest",
+    "expression": "Sum({<[Exercice]={2026}, [Mois]={<=10}>} [CA Réel])",
+    "explication": "L'analyse d'ensembles filtre les données sur l'exercice 2026 et les mois inférieurs ou égaux à 10 avant d'agréger le CA réel."
+  },
+  {
+    "id": "taux_marge",
+    "modele": "mistral-medium-latest",
+    "expression": "100 * Sum({<[Exercice]={2026}, [Mois]={<=10}>} [Marge brute Réel]) / Sum({<[Exercice]={2026}, [Mois]={<=10}>} [CA Réel])",
+    "explication": "L'analyse d'ensembles filtre les données sur l'exercice 2026 et les mois inférieurs ou égaux à 10 pour reproduire la limitation Spotfire."
+  },
+  {
+    "id": "ecart_ca_budget",
+    "modele": "mistral-medium-latest",
+    "expression": "100 * (Sum({<[Exercice]={2026}, [Mois]={<=10}>} [CA Réel]) / Sum({<[Exercice]={2026}, [Mois]={<=10}>} [CA Budget]) - 1)",
+    "explication": "L'analyse d'ensembles limite les données à l'exercice 2026 et aux mois inférieurs ou égaux à 10, comme dans la clause WHERE de Spotfire."
+  },
+  {
+    "id": "ebitda",
+    "modele": "mistral-medium-latest",
+    "expression": "Sum({<[Exercice]={2026}, [Mois]={<=10}, [Ordre rubrique]={<=7}>} [CR Réel])",
+    "explication": "L'analyse d'ensembles filtre les données pour l'année 2026, les mois 1 à 10 et les rubriques d'ordre ≤ 7, puis somme le champ [CR Réel]."
+  },
+  {
+    "id": "effets_marge",
+    "modele": "mistral-medium-latest",
+    "expression": "Sum({<[Exercice]={2026}, [Type de poste]={'Effet'}>} [Écart de marge]) / 1000",
+    "explication": "L'analyse d'ensembles filtre les données sur l'exercice 2026 et le type de poste 'Effet' avant de sommer le champ [Écart de marge] et de diviser par 1000."
+  }
+]

@@ -24,6 +24,7 @@
 <p align="center">
   <a href="#quick-start"><b>Quick start</b></a>
   &nbsp;·&nbsp; <a href="#architecture">Architecture</a>
+  &nbsp;·&nbsp; <a href="#flowchart">Flowchart</a>
   &nbsp;·&nbsp; <a href="#results">Results</a>
   &nbsp;·&nbsp; <a href="#limitations">Limitations</a>
 </p>
@@ -109,19 +110,47 @@ flowchart LR
 
 Three scripts, three roles: `reference.py` computes what must be obtained, `convertir.py` queries Mistral, `controler.py` runs the answer in Qlik Sense and decides.
 
+## Flowchart
+
+The path of one expression, from Spotfire to the verdict:
+
+```mermaid
+flowchart TD
+  A[Spotfire expression<br/>and its data limitation] --> B[convertir.py sends the case<br/>and the Qlik model to Mistral]
+  B --> C[Mistral returns<br/>a Qlik expression]
+  C --> D{Does Qlik Sense<br/>run the expression?}
+  D -- "no: syntax error<br/>or unknown field" --> N[Not compliant]
+  D -- yes --> E{Does the result equal<br/>the expected value?}
+  E -- yes --> O[Compliant]
+  E -- no --> N
+  N --> X[The BI expert fixes it<br/>or rewrites it by hand]
+  R[reference.py recomputes the expected<br/>value from data/] --> E
+```
+
 ## Results
 
-The baseline is in place: the 5 expressions from the manual migration, run in Qlik Sense, return the 5 expected values.
+Run of 26 November 2026, model `mistral-medium-latest`, a single request per expression, no correction.
 
-| Case | Expected value | Manual migration |
-|---|---|---|
-| Year-to-date revenue | 74,215,646.71 | compliant |
-| Margin rate | 29.4514 % | compliant |
-| Revenue gap to budget | +1.0753 % | compliant |
-| EBITDA | 5,311,850.59 | compliant |
-| Margin effects | −1,072.4964 k€ | compliant |
+| Case | Expected value | Manual migration | Mistral conversion |
+|---|---|---|---|
+| Year-to-date revenue | 74,215,646.71 | compliant | not compliant |
+| Margin rate | 29.4514 % | compliant | not compliant |
+| Revenue gap to budget | +1.0753 % | compliant | not compliant |
+| EBITDA | 5,311,850.59 | compliant | not compliant |
+| Margin effects | −1,072.4964 k€ | compliant | compliant |
+| **Total** | | **5 out of 5** | **1 out of 5** |
 
-The Mistral conversion has not been run yet. Its results will be added here, expression by expression, including the ones that fail.
+The four failures share one cause, a Qlik Sense syntax rule. Mistral wrote:
+
+```
+Sum({<[Exercice]={2026}, [Mois]={<=10}>} [CA Réel])
+```
+
+In set analysis, a comparison is a search and must be written in double quotes: `[Mois]={"<=10"}`. Without them, Qlik Sense returns no value.
+
+What Mistral got right in all five cases: moving the Spotfire limitation into the expression, and finding the renamed fields (`[CR Réel]`, `[Ordre rubrique]`, `[Type de poste]`, `[Écart de marge]`). The only compliant case is the one with no comparison.
+
+What the run shows: the conversion looks like valid Qlik and reads well, but four times out of five it computes nothing. Without running it in Qlik Sense, the error would have gone unnoticed. Raw answers are in [`conversions.json`](conversions.json), the detailed check in [`resultats.md`](resultats.md).
 
 ## Repository map
 
@@ -137,10 +166,11 @@ img/                banner and its script
 
 ## Limitations
 
+- **A single run.** One request per expression, one model, no second chance: the result says nothing about another model, a more precise prompt, or sending the error back to Mistral.
 - **Five expressions, not a tool.** The set is too small to conclude anything about a whole dashboard.
 - **The Qlik model is provided.** Mistral receives the list of renamed fields. Without it, it cannot guess that `[Réel]` became `[CR Réel]`.
 - **A correct number does not prove everything.** The check runs with no selection. An expression can return the right total and still react badly when the user filters a region or a month.
-- **An answer can change.** Temperature is set to 0, but a model name such as `mistral-large-latest` points to a model that evolves. `conversions.json` keeps the name of the model that answered.
+- **An answer can change.** Temperature is set to 0, but a model name such as `mistral-medium-latest` points to a model that evolves. `conversions.json` keeps the name of the model that answered.
 - **The check requires Qlik Sense Cloud.** Without a tenant, only `reference.py` can be run.
 
 ## What is sent to Mistral
