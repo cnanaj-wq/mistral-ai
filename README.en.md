@@ -62,6 +62,7 @@ python controler.py <Qlik application id>
 | Read the context Mistral receives | [`modele_qlik.md`](modele_qlik.md) |
 | Read the API call | [`convertir.py`](convertir.py) |
 | Understand how an answer is judged | [`controler.py`](controler.py) |
+| See how the Qlik error is sent back to Mistral | [`corriger.py`](corriger.py) |
 | Check the expected values without Qlik or Mistral | [`reference.py`](reference.py) |
 
 ## Why this project
@@ -79,7 +80,7 @@ The data belongs to a fictional company, Orvane Distribution, taken from the [mi
 | Spotfire expressions to convert | 5 | [`cas.json`](cas.json) |
 | Data tables (CSV) | 3 | [`data/`](data/) |
 | Data rows | 10,352 | [`data/`](data/) |
-| Python scripts | 3 | [`convertir.py`](convertir.py), [`controler.py`](controler.py), [`reference.py`](reference.py) |
+| Python scripts | 4 | [`convertir.py`](convertir.py), [`controler.py`](controler.py), [`corriger.py`](corriger.py), [`reference.py`](reference.py) |
 | Dependencies needed to call the API | 0 | Python standard library |
 
 The five cases:
@@ -108,7 +109,7 @@ flowchart LR
   K -- run in Qlik Sense --> S[resultats.md<br/>compliant or not]
 ```
 
-Three scripts, three roles: `reference.py` computes what must be obtained, `convertir.py` queries Mistral, `controler.py` runs the answer in Qlik Sense and decides.
+Four scripts, four roles: `reference.py` computes what must be obtained, `convertir.py` queries Mistral, `controler.py` runs the answer in Qlik Sense and decides, `corriger.py` sends back to Mistral what Qlik observed.
 
 ## Flowchart
 
@@ -123,7 +124,9 @@ flowchart TD
   D -- yes --> E{Does the result equal<br/>the expected value?}
   E -- yes --> O[Compliant]
   E -- no --> N
-  N --> X[The BI expert fixes it<br/>or rewrites it by hand]
+  N --> Y[corriger.py sends what Qlik observed<br/>back to Mistral, twice at most]
+  Y --> C
+  N --> X[After 2 failed corrections:<br/>the BI expert rewrites it by hand]
   R[reference.py recomputes the expected<br/>value from data/] --> E
 ```
 
@@ -152,6 +155,29 @@ What Mistral got right in all five cases: moving the Spotfire limitation into th
 
 What the run shows: the conversion looks like valid Qlik and reads well, but four times out of five it computes nothing. Without running it in Qlik Sense, the error would have gone unnoticed. Raw answers are in [`conversions.json`](conversions.json), the detailed check in [`resultats.md`](resultats.md).
 
+### Second run: Mistral receives what Qlik Sense observed
+
+[`corriger.py`](corriger.py) runs each expression in Qlik Sense. If it is not compliant, Mistral receives its own answer and what Qlik replied, without the expected value or any hint about the cause. At most two corrections per case.
+
+| Case | First run | After Qlik Sense feedback | Requests to Mistral |
+|---|---|---|---|
+| Year-to-date revenue | not compliant | compliant | 2 |
+| Margin rate | not compliant | compliant | 3 |
+| Revenue gap to budget | not compliant | compliant | 2 |
+| EBITDA | not compliant | compliant | 3 |
+| Margin effects | compliant | compliant | 1 |
+| **Total** | **1 out of 5** | **5 out of 5** | **11** |
+
+Mistral did not find the double-quote rule. It worked around it by listing the values one by one:
+
+```
+Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}>} [CA Réel])
+```
+
+The number is right, the wording is heavier than the manual migration (`[Mois clos]={1}`), and it will need a manual edit when one more month is closed. Two cases needed two corrections: the first attempt added spaces or wrote `{1..10}`, which Qlik Sense also rejects.
+
+What the second run shows: it is the "convert, run, correct" loop that moves the score from 1 to 5 out of 5, not the conversion alone. The successive attempts are in [`corrections.json`](corrections.json).
+
 ## Repository map
 
 ```
@@ -159,6 +185,7 @@ cas.json            the 5 Spotfire expressions, their limitation and the expecte
 modele_qlik.md      the description of the Qlik model given to Mistral
 convertir.py        calls the Mistral API, writes conversions.json
 controler.py        runs the expressions in Qlik Sense, writes resultats.md
+corriger.py         sends what Qlik observed back to Mistral, writes corrections.json
 reference.py        recomputes the expected values from data/
 data/               3 CSV tables from the fictional dataset
 img/                banner and its script
@@ -166,7 +193,8 @@ img/                banner and its script
 
 ## Limitations
 
-- **A single run.** One request per expression, one model, no second chance: the result says nothing about another model, a more precise prompt, or sending the error back to Mistral.
+- **One pass, one model.** Each run was launched once, with `mistral-medium-latest`. The result says nothing about another model or a more precise prompt.
+- **The loop needs an expected value.** It stops when the number is right. On a real dashboard, that number has to exist first, read in Spotfire or recomputed from the data.
 - **Five expressions, not a tool.** The set is too small to conclude anything about a whole dashboard.
 - **The Qlik model is provided.** Mistral receives the list of renamed fields. Without it, it cannot guess that `[Réel]` became `[CR Réel]`.
 - **A correct number does not prove everything.** The check runs with no selection. An expression can return the right total and still react badly when the user filters a region or a month.

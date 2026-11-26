@@ -34,15 +34,13 @@ Limitation de données : {limitation_spotfire}
 Expression : {expression_spotfire}"""
 
 
-def demander(cle, consigne, question):
+def demander(cle, messages):
+    """Envoie la conversation à Mistral ; renvoie sa réponse (objet JSON) et le modèle."""
     corps = {
         "model": MODELE,
         "temperature": 0,
         "response_format": {"type": "json_object"},
-        "messages": [
-            {"role": "system", "content": consigne},
-            {"role": "user", "content": question},
-        ],
+        "messages": messages,
     }
     requete = urllib.request.Request(
         ADRESSE,
@@ -74,7 +72,11 @@ def main():
     conversions = []
     for un_cas in cas:
         try:
-            reponse, modele = demander(cle, consigne, QUESTION.format(**un_cas))
+            messages = [
+                {"role": "system", "content": consigne},
+                {"role": "user", "content": QUESTION.format(**un_cas)},
+            ]
+            reponse, modele = demander(cle, messages)
         except urllib.error.HTTPError as erreur:
             sys.exit("Mistral a refusé la demande : %s %s" % (erreur.code, erreur.reason))
         conversions.append(

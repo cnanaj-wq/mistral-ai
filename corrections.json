@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ca_cumule",
+    "modele": "mistral-medium-latest",
+    "expression": "Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}>} [CA Réel])",
+    "demandes": 2,
+    "conforme": true,
+    "essais": [
+      "Sum({<[Exercice]={2026}, [Mois]={<=10}>} [CA Réel])",
+      "Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}>} [CA Réel])"
+    ]
+  },
+  {
+    "id": "taux_marge",
+    "modele": "mistral-medium-latest",
+    "expression": "100 * Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}>} [Marge brute Réel]) / Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}>} [CA Réel])",
+    "demandes": 3,
+    "conforme": true,
+    "essais": [
+      "100 * Sum({<[Exercice]={2026}, [Mois]={<=10}>} [Marge brute Réel]) / Sum({<[Exercice]={2026}, [Mois]={<=10}>} [CA Réel])",
+      "100 * Sum({<[Exercice] = {2026}, [Mois] = {<=10}>} [Marge brute Réel]) / Sum({<[Exercice] = {2026}, [Mois] = {<=10}>} [CA Réel])",
+      "100 * Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}>} [Marge brute Réel]) / Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}>} [CA Réel])"
+    ]
+  },
+  {
+    "id": "ecart_ca_budget",
+    "modele": "mistral-medium-latest",
+    "expression": "100 * (Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}>} [CA Réel]) / Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}>} [CA Budget]) - 1)",
+    "demandes": 2,
+    "conforme": true,
+    "essais": [
+      "100 * (Sum({<[Exercice]={2026}, [Mois]={<=10}>} [CA Réel]) / Sum({<[Exercice]={2026}, [Mois]={<=10}>} [CA Budget]) - 1)",
+      "100 * (Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}>} [CA Réel]) / Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}>} [CA Budget]) - 1)"
+    ]
+  },
+  {
+    "id": "ebitda",
+    "modele": "mistral-medium-latest",
+    "expression": "Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}, [Ordre rubrique]={1,2,3,4,5,6,7}>} [CR Réel])",
+    "demandes": 3,
+    "conforme": true,
+    "essais": [
+      "Sum({<[Exercice]={2026}, [Mois]={<=10}, [Ordre rubrique]={<=7}>} [CR Réel])",
+      "Sum({<[Exercice]={2026}, [Mois]={1..10}, [Ordre rubrique]={1..7}>} [CR Réel])",
+      "Sum({<[Exercice]={2026}, [Mois]={1,2,3,4,5,6,7,8,9,10}, [Ordre rubrique]={1,2,3,4,5,6,7}>} [CR Réel])"
+    ]
+  },
+  {
+    "id": "effets_marge",
+    "modele": "mistral-medium-latest",
+    "expression": "Sum({<[Exercice]={2026}, [Type de poste]={'Effet'}>} [Écart de marge]) / 1000",
+    "demandes": 1,
+    "conforme": true,
+    "essais": [
+      "Sum({<[Exercice]={2026}, [Type de poste]={'Effet'}>} [Écart de marge]) / 1000"
+    ]
+  }
+]

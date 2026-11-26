@@ -2,8 +2,8 @@
 
 Usage : python controler.py <identifiant de l'application Qlik>
 Demande l'outil en ligne de commande « qlik », déjà connecté au tenant.
-Contrôle deux séries : la migration manuelle (cas.json) et, s'il existe, le résultat de
-convertir.py (conversions.json). Résultat : resultats.md
+Contrôle jusqu'à trois séries : la migration manuelle (cas.json), le résultat de convertir.py
+(conversions.json) et celui de corriger.py (corrections.json), s'ils existent. Résultat : resultats.md
 """
 
 import json
@@ -83,6 +83,16 @@ def main():
         texte += tableau(
             "Conversion par Mistral (%s)" % modele, controler(application, cas, mistral)
         )
+    fichier = DOSSIER / "corrections.json"
+    if fichier.exists():
+        corrections = json.loads(fichier.read_text(encoding="utf-8"))
+        corrige = {c["id"]: c["expression"] for c in corrections}
+        texte += tableau(
+            "Conversion par Mistral après retour de Qlik Sense",
+            controler(application, cas, corrige),
+        )
+        texte += ["Demandes envoyées à Mistral par cas, première conversion comprise :", ""]
+        texte += ["- %s : %d" % (c["id"], c["demandes"]) for c in corrections] + [""]
     (DOSSIER / "resultats.md").write_text("\n".join(texte), encoding="utf-8")
     print("\n".join(texte))
 
